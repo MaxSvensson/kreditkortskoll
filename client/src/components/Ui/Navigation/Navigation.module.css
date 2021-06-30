@@ -1,0 +1,151 @@
+.Navigation {
+    
+}
+
+.navigationCheckbox {
+    display: none;
+}
+
+.NavigationButton {
+    background-color: white;
+    height: 65px;
+    width: 65px;
+    position: fixed;
+    top: 37.5px;
+    right: 37.5px;
+    border-radius: 50%;
+    z-index: 2000;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 2px 10px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 10px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 10px -8px rgba(0,0,0,0.75);
+
+    box-shadow: 0 10px 30px rgba(black, 0.1);
+}
+
+.navigationBackground {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: radial-gradient(#E26E94, #E26E94);
+    z-index: 1000;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+
+    transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.navigationNav {
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1500;
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all .6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.navigationNav h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    z-index: 500;
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigationList {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+.navigationItem {
+    margin: 15px;
+}
+
+.navigationLink {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
+    background-size: 250%;
+    transition: all .4s;
+}
+
+
+.navigationLink:active, .navigationLink:hover {
+    background-position: 100%;
+    color: #EE7C7D;
+    transform: translateX(10px);
+}
+
+.navigationCheckbox:checked ~ .navigationBackground {
+    transform: scale(80);
+}
+
+.navigationCheckbox:checked ~ .navigationNav {
+    opacity: 1;
+    visibility: visible;
+}
+.navigationIcon {
+    position: relative;
+    margin-top: 32px;
+}
+.navigationIcon, .navigationIcon::before, .navigationIcon:after {
+    width: 30px;
+    height: 2px;
+    background-color: #4a4a4a;
+    display: inline-block;
+}
+
+.navigationIcon::before, .navigationIcon:after {
+    content: "";
+    position: absolute;
+    left: 0;
+}
+
+.navigationIcon::before {
+    top: -8px;
+    transition: all .4s;
+}
+
+.navigationIcon::after {
+    top: 8px;
+    transition: all .4s;
+}
+
+.NavigationButton:hover .navigationIcon::before {
+    top: -10px;
+}
+.NavigationButton:hover .navigationIcon::after {
+    top: 10px;
+}
+
+.navigationCheckbox:checked + .NavigationButton .navigationIcon {
+    background-color: transparent;
+}
+
+.navigationCheckbox:checked + .NavigationButton .navigationIcon:before {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.navigationCheckbox:checked + .NavigationButton .navigationIcon::after {
+    top: 0;
+    transform: rotate(-135deg);
+}

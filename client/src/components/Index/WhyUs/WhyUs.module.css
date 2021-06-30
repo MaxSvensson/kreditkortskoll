@@ -1,0 +1,45 @@
+#WhyUs {
+    margin-top: 150px;
+    /* font-family: Montserrat, sans-serif; */
+    color: #2D3047;
+    position: relative;
+}
+
+#WhyUs h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#WhyUs .row {
+    margin-top: 20px;
+    /* text-align: center; */
+}
+
+#WhyUs .row .text {
+  font-size: 16px;
+  margin: 10px;
+}
+
+#WhyUs .head {
+  position: relative;
+  display: flex;
+}
+
+#WhyUs .head i {
+  position: absolute;
+  top: 50%;
+  transform: translate(0 , -50%);
+}
+#WhyUs .title {
+  font-weight: bold;
+}
+
+/* #WhyUs .row i {
+    margin-right: -10px;
+  } */
+
+#WhyUs .row .text p {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 10px;
+  }

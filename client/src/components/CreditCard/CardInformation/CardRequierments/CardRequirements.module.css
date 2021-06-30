@@ -1,0 +1,22 @@
+.krav {
+    font-size: 16px;
+}
+
+.good {
+    color: #5e9639;
+}
+.krav ul {
+    padding: 0;
+    list-style-type: none;
+}
+.krav li {
+    margin-bottom: 5px;
+}
+.krav i {
+    margin-right: 10px;
+}
+@media only screen and (max-width: 990px) {
+    .krav {
+        margin-top: 60px;
+    }
+}

@@ -1,0 +1,39 @@
+#BestCard {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  height: 500px;
+  border-radius: 8px;
+  padding: 20px;
+  background: rgba( 255, 255, 255, 0.2 );
+  background-clip: padding-box;
+  backdrop-filter: blur(40px);
+  z-index: 10;
+  text-align: center;
+}
+
+#BestCard h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#BestCard h4 {
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+#BestCard p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+#BestCard .btn {
+  position: absolute;
+  bottom: 40px;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%);
+}

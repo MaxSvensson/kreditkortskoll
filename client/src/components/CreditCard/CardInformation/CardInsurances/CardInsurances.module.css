@@ -1,0 +1,42 @@
+.försäkring {
+    width: 100%;
+    font-size: 16px;
+}
+/* .content {
+    display: flex;
+} */
+.content .left {
+    float: left;
+}
+.content .right {
+    float: right;
+}
+.försäkring h2 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.försäkring ul {
+    padding: 0;
+    list-style-type: none;
+}
+.försäkring li {
+    margin-bottom: 5px;
+}
+
+.försäkring i {
+    margin-right: 10px;
+}
+.good {
+    color: #5e9639;
+}
+.bad {
+    color: red;
+}
+@media only screen and (max-width: 1200px){
+    .content .left {
+        float: none;
+    }
+    .content .right {
+        float: none;
+    }
+}

@@ -1,0 +1,243 @@
+.card {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    color: black;
+    height: 360px;
+    width: 880px;
+    margin: auto;
+    margin-top: 40px ;
+    -webkit-box-shadow: 0px 10px 18px -5px rgba(166,166,166,1);
+    -moz-box-shadow: 0px 10px 18px -5px rgba(166,166,166,1);
+    box-shadow: 0px 10px 18px -5px rgba(166,166,166,1);
+    padding: 30px;
+    position: relative;
+    border: 1px #EAEAEA  solid;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+}
+.Ismobile {
+    display: none;
+}
+.IsComputer {
+    display: block;
+}
+.card img {
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.content {
+    display: flex;
+}
+.content li {
+    list-style: none;
+}
+.content h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content img {
+    width: 200px;
+    height: 135px;
+}
+.specific {
+    position: absolute;
+    right: 20px;
+    max-width: 240px;
+    top: 55px;
+    /* text-align: center; */
+}
+.specific ul li {
+    font-size: 15px;
+    width: 100%;
+    margin: 10px;
+ }
+.buttons {
+    position: absolute;
+    left: 0; 
+    right: 0;
+    bottom: 5px;
+    width: 550px;
+    margin: auto;
+    display: flex;
+}
+.ansökButton {
+    margin-left: 10px;
+    width: 280px;
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+.good{
+    color: green;
+    margin-right: 4px;
+    /* background-color: #e6e6e6;
+    padding: 5px;
+    border-radius:50% ; */
+}
+.bad {
+    color: red;
+    margin-right: 4px;
+}
+.card .toCompare {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    width: 45px;
+    height: 45px;
+    background-color:#EE7C7D;
+    text-align: center;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+}
+.card .toCompare i {
+    margin: auto;
+    color: white;
+    margin-top: 14px;
+}
+
+.properties {
+    margin-top: 10px;
+    max-width: 360px;
+}
+.propertie {
+    display: flex;
+    max-width: 400px;
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+.card .btnBackground {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:#fcfcfc;
+    width: 100%;
+    height: 100px;
+    border-top: 0.5px solid #f2f2f2;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+  @media only screen and (max-width: 1050px) {
+      
+    .card {
+        background-color: white;
+        color: black;
+        width: 450px;
+        height: 720px;
+        margin: auto;
+        margin-top: 15px;
+        box-shadow: 5px 10px 10px #ccc;
+        padding: 15px;
+        border: 1px #EAEAEA  solid;
+    }
+    .content {
+        display: initial;
+        text-align: center;
+    }
+    .card h4 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .Ismobile {
+        display: block;
+    }
+    .IsComputer {
+        display: none;
+    }
+    .rating {
+        text-align: center;
+    }
+    .properties {
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 25px;
+        text-align: start;
+    }
+    .content img {
+        width: 200px;
+        height: 135px;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .specific {
+        position: inherit;
+        text-align: start;
+        margin: auto;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .buttons {
+        position: absolute;
+        bottom: 10px;
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .ansökButton {
+        margin: auto;
+        margin-bottom: 8px;
+        background-color:#2e66ab;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        width: 100%;
+        text-align: center;
+        display: block;
+        width: 92%;
+    }
+    .card .btnBackground {
+        background-color: white;
+        border: none;
+    }
+    
+  }
+  @media only screen and (max-width: 500px) {
+    .card {
+        background-color: white;
+        color: black;
+        width: 385px;
+        height: 670px;
+        margin: auto;
+        margin-top: 15px;
+        box-shadow: 5px 10px 10px #ccc;
+        padding: 15px;
+        border: 1px #EAEAEA  solid;
+    }
+
+  .card .btnBackground {
+    background-color: white;
+    border: none;
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .card {
+        background-color: white;
+        color: black;
+        width: 95%;
+        height: 700px;
+        margin: auto;
+        margin-top: 15px;
+        box-shadow: 5px 10px 10px #ccc;
+        padding: 15px;
+        border: 1px #EAEAEA  solid;
+    }
+    
+    .card .btnBackground {
+        background-color: white;
+        border: none;
+    }
+  }

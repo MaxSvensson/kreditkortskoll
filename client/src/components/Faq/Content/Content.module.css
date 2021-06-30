@@ -1,0 +1,14 @@
+#Content {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+#Content #imgContainer {
+  position: absolute;
+  top: -200px;
+  right: 70px;
+}

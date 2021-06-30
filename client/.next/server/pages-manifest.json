@@ -1,0 +1,16 @@
+{
+  "/Redirect": "pages/Redirect.js",
+  "/__document": "pages/__document.js",
+  "/_app": "pages/_app.js",
+  "/artiklar": "pages/artiklar.js",
+  "/artiklar/[name]": "pages/artiklar/[name].js",
+  "/faq": "pages/faq.html",
+  "/": "pages/index.js",
+  "/jamfor": "pages/jamfor.js",
+  "/kontakt": "pages/kontakt.html",
+  "/kort": "pages/kort.js",
+  "/kort/[name]": "pages/kort/[name].js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

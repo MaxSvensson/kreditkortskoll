@@ -1,0 +1,71 @@
+.AccordionItem {
+    background-color: #E97784;
+    border-radius: 6px;
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0, 0, 0, .1);
+    width: 65%;
+    cursor: pointer;
+}
+
+.AccordionLink {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    background-color: #E97784;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+}
+
+.AccordionLink i {
+    color: #e7d5ff;
+    padding: 4px;
+}
+
+.AccordionLink #removeicon {
+    display: none;
+}
+
+#open .AccordionLink #openicon {
+    display: none;
+}
+
+#open .AccordionLink #removeicon {
+    display: block;
+}
+
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #ff8594;
+    transition: max-height 650ms;
+    border-radius: 6px;
+}
+
+.answer::before {
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 100%;
+    background-color: #fff;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .6);
+}
+
+.answer p {
+    font-size: 14px;
+    color: rgba(255, 247, 247, 0.8);
+    padding: 20px;
+}
+
+#open .answer {
+    max-height: 280px;
+}

@@ -1,0 +1,62 @@
+#TextHeader {
+    position: absolute;
+    top: 200px;
+    max-width: 700px;
+    /* margin-left: 150px; */
+}
+
+#TextHeader #HeadingTitle {
+    font-size: 14px;
+    animation: moveInRight 1s ease-in;
+}
+
+#TextHeader #HeadingDescription {
+    font-size: 14px;
+    animation: moveInLeft 1s ease-in;
+}
+
+@media screen and (max-width: 992px) {
+    #TextHeader {
+        /* max-width: 100%;
+        position: relative;
+        top: 100px;
+        left: 0;
+        transform: translate(0, 0);  */
+    }
+
+    #TextHeader #HeadingTitle {
+        font-size: 20px;
+    }
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

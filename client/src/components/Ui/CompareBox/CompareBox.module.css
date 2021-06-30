@@ -1,0 +1,159 @@
+.CompareBox {
+  width: 270px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0px 0px 85px -29px rgba(0,0,0,0.75);
+  position: fixed;
+  bottom: 20px;
+  right: 4px;
+  border-radius: 4px;
+  z-index: 10;
+  /* position: relative; */
+}
+/* .CompareBoxDown {
+      width: 270px;
+      height: 100px;
+      background-color: white;
+      box-shadow: 0px 0px 85px -29px rgba(0,0,0,0.75);
+      position: fixed;
+      bottom: 0;
+      right: 4px;
+      border-radius: 4px;
+      z-index: 1000;
+} */
+.CompareBox ul::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+.CompareBox ul::-webkit-scrollbar-track {
+  background: #e8e8e8;        /* color of the tracking area */
+}
+.CompareBox ul::-webkit-scrollbar-thumb {
+  background-color: #bababa;   
+  /* border-radius: 20px;        */
+  /* border: 3px solid black; */
+}
+.CompareBox h2 {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.CompareBox .buttonBackground {
+  background-color:rgb(238,124,125);
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.CompareBox button {
+  text-align: center;
+  margin: auto;
+  position: absolute; 
+  bottom: 10px;
+  left: 0; 
+  right: 0; 
+  border: none;
+  padding: 8px;
+  background-color:white;
+  color: black;
+  border-radius: 8px;
+  width: 200px;
+  font-size: 14px;
+}
+
+.CompareBox button:focus {
+  border: none;
+  outline: none;
+}
+.CompareBox img {
+  width: 45px;
+  height: 30px;
+  margin-left: 0;
+}
+.CompareBox ul {
+  position: relative;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  height:100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  overflow-y: auto;
+  text-decoration: none;
+}
+
+.CompareBox li {
+  margin-top: 4px;
+}
+
+.CompareBox li a {
+  text-decoration: none;
+}
+
+.CompareBox li i {
+  position: absolute;
+  right: 15px;
+}
+
+/* .CompareBox ul:hover {
+  display: block;
+} */
+.CompareBox li {
+  list-style: none;
+}
+.CompareBox .cards {
+  box-sizing: border-box;
+}
+.CompareBox .card {
+  padding: 5px;
+  display: flex;
+  margin-left: 5px;
+}
+.CompareBox .text {
+  margin-left: 5px;
+  color: #2e66ab;
+  cursor: pointer;
+}
+.CompareBox .text:hover {
+  text-decoration: underline;
+}
+
+.CompareBox .card i {
+  margin-left: 10px;
+  margin-top: 6px;
+  color: red;
+  cursor: pointer;
+}
+
+.CompareBox .buttonBackground a {
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  padding: 10px;
+  border-radius: 50px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+}
+
+@media only screen and (max-width: 1000px) {
+  .CompareBox {
+      width: 100%;
+      height: 40;
+      background-color: white;
+      box-shadow: 0px 0px 85px -29px rgba(0,0,0,0.75);
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      border-radius: 0;
+      /* position: relative; */
+      }
+}

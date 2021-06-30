@@ -1,0 +1,46 @@
+.CardTable  {
+    font-size: 16px;
+}
+
+
+.CardTable table {
+    border-spacing: 0;
+    width: 450px;
+    margin-bottom: 100px;
+}
+
+.CardTable tr {
+    border-top: solid 0.5px #dbdbdb;
+    display: table-row;
+    vertical-align: inherit;
+}
+.CardTable tr:first-child {
+    border-top: none!important;
+}
+.CardTable tr:hover {
+    background-color: #ededed;
+}
+
+/* tr:nth-child(even){
+    background-color: #e0e0e0;
+} */
+
+.CardTable td {
+    padding:4px 8px ;
+}
+@media only screen and (max-width: 700px)  {
+    .CardTable table {
+        width: 400px;
+    }
+    .CardTable td {
+        padding:0 4px ;
+    }
+}
+@media only screen and (max-width: 450px)  {
+    .CardTable table {
+        width: 320px;
+    }
+    .CardTable td {
+        padding:0 4px ;
+    }
+}
