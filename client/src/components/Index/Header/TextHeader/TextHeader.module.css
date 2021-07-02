@@ -28,6 +28,19 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    #TextHeader #HeadingTitle {
+        font-size: 10px;
+        text-align: left;
+    }
+    #TextHeader #HeadingDescription {
+        margin-top: 15px;
+        text-align: left;
+    }
+}
+
+
+
 @keyframes moveInLeft {
     0% {
         opacity: 0;

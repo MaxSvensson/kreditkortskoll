@@ -54,3 +54,14 @@
   }
   
 }
+
+@media screen and (max-width: 400px) {
+  #UpdatedInformation {
+    margin-top: 100px;
+  }  
+  #UpdatedInformation h4 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+}
+

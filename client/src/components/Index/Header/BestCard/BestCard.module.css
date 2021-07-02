@@ -42,3 +42,13 @@
     margin-top: 180px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  #BestCard {
+    height: 500px;
+  }
+
+  #BestCard .btn {
+    width: 90%;
+  }
+}

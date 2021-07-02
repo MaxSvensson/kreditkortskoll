@@ -7,7 +7,7 @@ const TextHeader : React.FunctionComponent = () : JSX.Element => {
             <h1>Vi hjälper dig att hitta det bästa kortet för just dig...</h1>
         </div>
         <div id={styles.HeadingDescription}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis repellat non reiciendis deserunt dignissimos at suscipit quas saepe blanditiis, obcaecati eveniet ratione a modi consectetur sit eos eaque doloribus dolore?</p>
+            <p>suscipit quas saepe blanditiis, obcaecati eveniet ratione a modi consectetur sit eos eaque doloribus dolore?</p>
         </div>
 </div>
 }

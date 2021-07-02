@@ -149,3 +149,17 @@
     top: 0;
     transform: rotate(-135deg);
 }
+
+
+
+@media screen and (max-width: 4002px) {
+    .NavigationButton {
+        top: 15.5px;
+        right: 15.5px;
+    }
+    
+    .navigationBackground {
+        top: 17px;
+        right: 17px;
+    }
+}

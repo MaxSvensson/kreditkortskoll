@@ -61,11 +61,29 @@
 }
 
 .answer p {
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(255, 247, 247, 0.8);
     padding: 20px;
+    line-height: 30px;
 }
 
 #open .answer {
     max-height: 280px;
+}
+
+@media screen and (max-width: 1200px) {
+    .AccordionItem {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .AccordionItem {
+        width: 98%;
+    }
+
+    #open .answer {
+        max-height: 380px;
+    }
 }

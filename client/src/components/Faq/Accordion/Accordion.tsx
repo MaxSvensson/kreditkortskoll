@@ -1,15 +1,20 @@
 import styles from './Accordion.module.css';
 
-interface Props {
+interface Faq {
     id: number;
+    title: string;
+    answer: string;
+}
+interface Props {
+    faq: Faq;
     open: boolean;
     onClick: (id: number) => any
 }
 
-const QuestionAndAnswer : React.FC<Props> = ({id, onClick, open}) => {
-    return <div onClick={() => onClick(id)} className={styles.AccordionItem} id={open ? styles.open : styles.close}>
+const QuestionAndAnswer : React.FC<Props> = ({faq, onClick, open}) => {
+    return <div onClick={() => onClick(faq.id)} className={styles.AccordionItem} id={open ? styles.open : styles.close}>
         <a className={styles.AccordionLink}>
-            How often do you go to the beach? {open}
+            {faq.title}
             <span id={styles.openicon}>
                 <i className="fas fa-plus"></i>
             </span>
@@ -19,7 +24,7 @@ const QuestionAndAnswer : React.FC<Props> = ({id, onClick, open}) => {
         </a>
         <div className={styles.answer}>
             <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium amet consequuntur, suscipit ratione distinctio laborum eaque recusandae fugit dolores blanditiis itaque obcaecati nulla repellat neque impedit, sit saepe odit aperiam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium amet consequuntur, suscipit ratione distinctio laborum eaque recusandae fugit dolores blanditiis itaque obcaecati nulla repellat neque impedit, sit saepe odit aperiam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium amet consequuntur, suscipit ratione distinctio laborum eaque recusandae fugit dolores blanditiis itaque obcaecati nulla repellat neque impedit, sit saepe odit aperiam.
+                {faq.answer}
             </p>
         </div>
     </div>

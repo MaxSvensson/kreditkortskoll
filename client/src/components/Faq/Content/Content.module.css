@@ -12,3 +12,19 @@
   top: -200px;
   right: 70px;
 }
+
+
+@media screen and (max-width: 1600px) {
+  #Content #imgContainer {
+    display: none;
+  }
+
+  #Content {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+}
