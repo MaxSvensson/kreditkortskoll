@@ -48,7 +48,7 @@
 }
 #Compare table td {
     max-width: 150px;
-    padding: 5px;
+    padding: 10px;
 }
 #Compare table .tdCard {
     border-left: 1px solid #e8e8e8;
@@ -60,22 +60,22 @@
 
 td .AnsökLink {
     background-color: #EE7C7D;
-    padding: 15px 45px;
+    padding: 15px 60px;
     color: white;
     margin-top: 20px;
     border-radius: 50px;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
 }
 td .AnsökLink:hover {
-   color: white;
+   background-color: white;
+   border: .5px solid #EE7C7D;
    cursor: pointer;
+   color: #EE7C7D;
+   transition: ease-in-out .2s;
 }
 
 @media only screen and (max-width: 1000px) {
-    #Compare table {
-        margin-bottom: 200px;
-    }
     td .AnsökLink {
         padding: 10px 15px;
     }
