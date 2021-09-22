@@ -43,7 +43,7 @@ const WhyUs : React.FunctionComponent = () : JSX.Element => {
                             </div>
                         </Col>
                 </Row>
-                <Row style={{marginTop:60}} align="end" justify="end">
+                <Row style={{marginTop:50}} align="end" justify="end">
                         <Col sm={4}>
                         <div className={styles.text}>
                             <div className={styles.head}>

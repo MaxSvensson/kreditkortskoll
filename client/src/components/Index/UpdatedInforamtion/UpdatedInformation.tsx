@@ -15,7 +15,7 @@ const UpdatedInformation = () => {
         <Col md={12} lg={6}>
           <h4>Alltid updaterat</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos vero consectetur voluptatum cum? Labore suscipit nobis cupiditate maiores at deleniti nesciunt obcaecati repellendus minima qui, quidem exercitationem excepturi eligendi non!</p>
-          <ButtonWhite href="/kort" text="Utforska kort" className={styles.btn} /> 
+          <ButtonWhite type="full" href="/kort" text="Utforska kort" className={styles.btn} /> 
         </Col>
         <Col md={12} lg={6}>
         <div id={styles.imgContainer}>  

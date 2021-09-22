@@ -8,11 +8,12 @@ interface Props {
   href?: string;
   onClick? : () => void;
   className? : string;
+  type: string
 }
 
 const ButtonWhite : React.FunctionComponent<Props> = (props) => {
    return <Link href={props.href ? props.href : '#'}>
-    <a id={styles.ButtonWhite} onClick={props.onClick} className={props.className}>
+    <a className={`${styles.ButtonWhite} ${props.className} ${props.type === "outline" ? styles.outlinedWhite : props.type === "full" ? styles.fullWhite : null}`} onClick={props.onClick}>
         {props.text}
     </a>
   </Link>

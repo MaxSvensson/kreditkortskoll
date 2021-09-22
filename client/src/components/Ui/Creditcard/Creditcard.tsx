@@ -6,7 +6,7 @@ import Rating from '../Rating/Rating';
 import { CreditCard } from '../../../classes/CreditCard';
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
-import ButtonOrange from '../Buttons/ButtonOrange';
+import ButtonOrange from '../Buttons/ButtonBlue';
 import {Card as CreditCardInterface} from '../../../classes/CreditCard'
 import { StateContext } from '../../../context/State';
 
@@ -83,8 +83,8 @@ const Creditcard : React.FunctionComponent<{card : CreditCard}> = ({card}) => {
             </div> 
             <div className={styles.btnBackground}>
                 <div className={styles.buttons}>
-                    <ButtonOrange text="Ansök nu!" href={`/Redirect?card=${card.properties._id}`} className={styles.ansökButton} /> 
-                    <ButtonOrange text="Mer information" href={`/kort/${card.properties._id.replace(/(\s)/g, '-')}`} className={styles.ansökButton} />
+                    <ButtonOrange type="full" text="Ansök nu!" href={`/Redirect?card=${card.properties._id}`} className={styles.ansökButton} /> 
+                    <ButtonOrange type="outline" text="Mer information" href={`/kort/${card.properties._id.replace(/(\s)/g, '-')}`} className={styles.ansökButton} />
                 </div>
             </div>
             <Tippy content={!isCardCompare(card.properties._id) ? 'Lägg till kreditkort i jämförelse' : 'Ta bort kreditkort ur jämförelse'}>

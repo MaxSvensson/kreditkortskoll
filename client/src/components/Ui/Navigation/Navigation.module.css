@@ -28,7 +28,9 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    background-image: radial-gradient(#E26E94, #E26E94);
+    background-image: linear-gradient( #34A1FE 10%, #3468FE 100%);
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
     z-index: 1000;
     position: fixed;
     top: 40px;

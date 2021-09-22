@@ -20,7 +20,7 @@ const BestCard : React.FunctionComponent<Props> = ({bestcard}) => {
         />
         {/* <h4>{bestcard.name}</h4> */}
         <p>{bestcard.description}</p>
-        <ButtonWhite text="Ansök nu!" href={`/Redirect?card=${bestcard.name}`} className={styles.btn} />
+        <ButtonWhite type="full" text="Ansök nu!" href={`/Redirect?card=${bestcard.name}`} className={styles.btn} />
   </div>
 }
 

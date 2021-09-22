@@ -1,38 +1,74 @@
-#ButtonWhite {
+.ButtonWhite {
   padding: 12px;
   border-radius: 100px;
   text-align: center;
   color: #2D3047;
   font-size: 20px;
   cursor: pointer;
-  background-color:#fff;
   text-decoration: none;
   transition: ease-in-out .2s;
-  border: .5px #fff solid;
 }
 
-
-#ButtonWhite:hover {
+.ButtonWhite:hover {
   background-color: transparent;
   color: #fff;
 }
 
-#ButtonOrange {
+.outlinedWhite {
+  border: .5px #fff solid;
+  color: white;
+}
+
+.fullWhite {
+  background: #fff;
+  color: #000;
+}
+
+.outlinedWhite:hover {
+  background: #fff;
+  color: #000;
+}
+
+.fullWhite:hover {
+  border: .5px #fff solid;
+  color: white;
+}
+
+.ButtonOrange {
   padding: 12px;
   border-radius: 100px;
   text-align: center;
   color: #fff;
   font-size: 20px;
   cursor: pointer;
-  background-color:#EE7C7D;
   text-decoration: none;
   transition: ease-in-out .2s;
-  border: .5px #EE7C7D solid;
+  border: .5px #3468FE solid;
 }
 
-#ButtonOrange:hover {
+.ButtonOrange:hover {
+  color: #3468FE;
   background-color: transparent;
-  color: #EE7C7D;
+}
+
+.outlinedBlue {
+  border: .5px #3468FE solid;
+  color: #3468FE;
+}
+
+.outlinedBlue:hover {
+  background: #3468FE;
+  color: white;
+}
+
+.fullBlue {
+  background-color:#3468FE;
+  color: white;
+}
+
+.fullBlue:hover {
+  border: .5px #3468FE solid;
+  color: #3468FE;
 }
 
 @keyframes buttonHover {
