@@ -1,30 +1,104 @@
 (function() {
 var exports = {};
-exports.id = "pages/jamfor";
-exports.ids = ["pages/jamfor"];
+exports.id = 314;
+exports.ids = [314];
 exports.modules = {
 
-/***/ "./src/components/Compare/CompareTable/CompareTable.tsx":
-/*!**************************************************************!*\
-  !*** ./src/components/Compare/CompareTable/CompareTable.tsx ***!
-  \**************************************************************/
+/***/ 8032:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9297);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CompareTable.module.css */ "./src/components/Compare/CompareTable/CompareTable.module.css");
-/* harmony import */ var _CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _tippyjs_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @tippyjs/react */ "@tippyjs/react");
-/* harmony import */ var _tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_tippyjs_react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var tippy_js_dist_tippy_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tippy.js/dist/tippy.css */ "./node_modules/tippy.js/dist/tippy.css");
-/* harmony import */ var tippy_js_dist_tippy_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(tippy_js_dist_tippy_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "D:\\Kreditkortskoll\\Client\\src\\components\\Compare\\CompareTable\\CompareTable.tsx";
-
+/* harmony import */ var _Container_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2403);
+/* harmony import */ var _Container_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Container_module_css__WEBPACK_IMPORTED_MODULE_1__);
 var __jsx = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement);
+
+
+
+const Container = props => {
+  return __jsx("div", {
+    id: (_Container_module_css__WEBPACK_IMPORTED_MODULE_1___default().Container)
+  }, props.children);
+};
+
+/* harmony default export */ __webpack_exports__["Z"] = (Container);
+
+/***/ }),
+
+/***/ 129:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": function() { return /* binding */ jamfor; },
+  "getServerSideProps": function() { return /* binding */ getServerSideProps; }
+});
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(9297);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(701);
+var head_default = /*#__PURE__*/__webpack_require__.n(head_);
+// EXTERNAL MODULE: ./src/resources/Cards.ts
+var Cards = __webpack_require__(1467);
+// EXTERNAL MODULE: ./src/components/Compare/Header/Header.module.css
+var Header_module = __webpack_require__(9295);
+var Header_module_default = /*#__PURE__*/__webpack_require__.n(Header_module);
+// EXTERNAL MODULE: ./src/hoc/Container/Container.tsx
+var Container = __webpack_require__(8032);
+// EXTERNAL MODULE: ./src/components/Compare/Header/TextHeader/TextHeader.module.css
+var TextHeader_module = __webpack_require__(6301);
+var TextHeader_module_default = /*#__PURE__*/__webpack_require__.n(TextHeader_module);
+;// CONCATENATED MODULE: ./src/components/Compare/Header/TextHeader/TextHeader.tsx
+var __jsx = (external_react_default()).createElement;
+
+
+
+const TextHeader = () => {
+  return __jsx("div", {
+    id: (TextHeader_module_default()).TextHeader
+  }, __jsx("div", {
+    id: (TextHeader_module_default()).HeadingTitle
+  }, __jsx("h1", null, "J\xE4mf\xF6r kreditkorten f\xF6r att hitta det som passar dig b\xE4st")), __jsx("div", {
+    id: (TextHeader_module_default()).HeadingDescription
+  }, __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis repellat non reiciendis deserunt dignissimos at suscipit quas saepe blanditiis, obcaecati eveniet ratione a modi consectetur sit eos eaque doloribus dolore?")));
+};
+
+/* harmony default export */ var TextHeader_TextHeader = (TextHeader);
+;// CONCATENATED MODULE: ./src/components/Compare/Header/Header.tsx
+var Header_jsx = (external_react_default()).createElement;
+
+
+ // Components
+
+
+
+const Header = () => {
+  return Header_jsx("div", {
+    id: (Header_module_default()).Header
+  }, Header_jsx(Container/* default */.Z, null, Header_jsx(TextHeader_TextHeader, null)));
+};
+
+/* harmony default export */ var Header_Header = (Header);
+// EXTERNAL MODULE: ./src/components/Compare/CompareTable/CompareTable.module.css
+var CompareTable_module = __webpack_require__(5261);
+var CompareTable_module_default = /*#__PURE__*/__webpack_require__.n(CompareTable_module);
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(1664);
+// EXTERNAL MODULE: external "@tippyjs/react"
+var react_ = __webpack_require__(7836);
+var react_default = /*#__PURE__*/__webpack_require__.n(react_);
+// EXTERNAL MODULE: ./node_modules/tippy.js/dist/tippy.css
+var tippy = __webpack_require__(8933);
+;// CONCATENATED MODULE: ./src/components/Compare/CompareTable/CompareTable.tsx
+
+var CompareTable_jsx = (external_react_default()).createElement;
  // Components
 
 
@@ -34,1460 +108,374 @@ var __jsx = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement);
 const CompareTable = ({
   cards
 }) => {
-  return __jsx("div", {
-    id: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Compare),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 12
-    }
-  }, __jsx("div", {
-    id: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().compareTable),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 9
-    }
-  }, __jsx("table", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 17
-    }
-  }, __jsx("tbody", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 25
-    }
-  }, __jsx("tr", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().TopTr),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
+  return CompareTable_jsx("div", {
+    id: (CompareTable_module_default()).Compare
+  }, CompareTable_jsx("div", {
+    id: (CompareTable_module_default()).compareTable
+  }, CompareTable_jsx("table", null, CompareTable_jsx("tbody", null, CompareTable_jsx("tr", {
+    className: (CompareTable_module_default()).TopTr
+  }, CompareTable_jsx("td", {
     style: {
       background: 'white'
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 33
     }
   }), cards.map(card => {
-    return __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().info),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 23,
-        columnNumber: 40
-      }
-    }, __jsx("img", {
-      src: card.url,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 23,
-        columnNumber: 83
-      }
-    }), __jsx("br", {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 23,
-        columnNumber: 105
-      }
-    }), " ", __jsx("b", {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 23,
-        columnNumber: 112
-      }
-    }, card.cardName));
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 33
-    }
+    return CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).info,
+      key: card._id
+    }, CompareTable_jsx("img", {
+      src: card.url
+    }), CompareTable_jsx("br", null), " ", CompareTable_jsx("b", null, card.cardName));
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "\xC5rsavgift: "), cards.map(card => {
-    return card.Årsavgift == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29,
-        columnNumber: 64
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29,
-          columnNumber: 125
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29,
-        columnNumber: 109
-      }
-    }, __jsx("i", {
+    return card.Årsavgift == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29,
-        columnNumber: 174
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29,
-        columnNumber: 266
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Årsavgift);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "H\xF6gsta kredit: "), cards.map(card => {
-    return card.Högsta_kredit == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35,
-        columnNumber: 68
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35,
-          columnNumber: 129
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35,
-        columnNumber: 113
-      }
-    }, __jsx("i", {
+    return card.Högsta_kredit == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35,
-        columnNumber: 178
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35,
-        columnNumber: 270
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Högsta_kredit);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "R\xE4nta: "), cards.map(card => {
-    return card.Ränta == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41,
-        columnNumber: 60
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41,
-          columnNumber: 121
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41,
-        columnNumber: 105
-      }
-    }, __jsx("i", {
+    return card.Ränta == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41,
-        columnNumber: 170
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41,
-        columnNumber: 262
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Ränta);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Effektiv r\xE4nta: "), cards.map(card => {
-    return card.Effektiv_ränta == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 47,
-        columnNumber: 69
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47,
-          columnNumber: 130
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 47,
-        columnNumber: 114
-      }
-    }, __jsx("i", {
+    return card.Effektiv_ränta == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 47,
-        columnNumber: 179
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 47,
-        columnNumber: 271
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Effektiv_ränta);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "R\xE4ntefritt: "), cards.map(card => {
-    return card.Räntefritt == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 65
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53,
-          columnNumber: 126
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 110
-      }
-    }, __jsx("i", {
+    return card.Räntefritt == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 175
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 267
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Räntefritt);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Bonus: "), cards.map(card => {
-    return card.Bonus == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 59,
-        columnNumber: 60
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59,
-          columnNumber: 121
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 59,
-        columnNumber: 105
-      }
-    }, __jsx("i", {
+    return card.Bonus == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 59,
-        columnNumber: 170
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 59,
-        columnNumber: 262
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Bonus);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "F\xF6rs\xE4kringar: "), cards.map(card => {
-    return card.Försäkringar == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 65,
-        columnNumber: 67
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65,
-          columnNumber: 128
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 65,
-        columnNumber: 112
-      }
-    }, __jsx("i", {
+    return card.Försäkringar == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 65,
-        columnNumber: 177
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 65,
-        columnNumber: 269
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Försäkringar);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Concierge Service: "), cards.map(card => {
-    return card.Concierge_Service == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 71,
-        columnNumber: 72
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71,
-          columnNumber: 133
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 71,
-        columnNumber: 117
-      }
-    }, __jsx("i", {
+    return card.Concierge_Service == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 71,
-        columnNumber: 182
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 71,
-        columnNumber: 274
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Concierge_Service);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Korttyp: "), cards.map(card => {
-    return card.Korttyp == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 77,
-        columnNumber: 62
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77,
-          columnNumber: 123
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 77,
-        columnNumber: 107
-      }
-    }, __jsx("i", {
+    return card.Korttyp == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 77,
-        columnNumber: 172
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 77,
-        columnNumber: 264
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Korttyp);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "\xC5ldersgr\xE4ns: "), cards.map(card => {
-    return card.Åldersgräns == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 83,
-        columnNumber: 66
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83,
-          columnNumber: 127
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 83,
-        columnNumber: 111
-      }
-    }, __jsx("i", {
+    return card.Åldersgräns == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 83,
-        columnNumber: 176
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 83,
-        columnNumber: 268
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Åldersgräns);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Inkomstkrav: "), cards.map(card => {
-    return card.Inkomstkrav == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 89,
-        columnNumber: 66
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89,
-          columnNumber: 127
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 89,
-        columnNumber: 111
-      }
-    }, __jsx("i", {
+    return card.Inkomstkrav == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 89,
-        columnNumber: 176
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 89,
-        columnNumber: 268
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Inkomstkrav);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Valutap\xE5slag i utlandet: "), cards.map(card => {
-    return card.Valutapåslag_utlande == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 95,
-        columnNumber: 75
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 95,
-          columnNumber: 136
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 95,
-        columnNumber: 120
-      }
-    }, __jsx("i", {
+    return card.Valutapåslag_utlande == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 95,
-        columnNumber: 185
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 95,
-        columnNumber: 277
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Valutapåslag_utlande);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 98,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Uttagsavgift: "), cards.map(card => {
-    return card.Uttagsavgift == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 101,
-        columnNumber: 67
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101,
-          columnNumber: 128
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 101,
-        columnNumber: 112
-      }
-    }, __jsx("i", {
+    return card.Uttagsavgift == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 101,
-        columnNumber: 177
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 101,
-        columnNumber: 269
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Uttagsavgift);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 104,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 105,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Minsta belopp att betala: "), cards.map(card => {
-    return card.Minsta_belopp_betala == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 107,
-        columnNumber: 75
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 107,
-          columnNumber: 136
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 107,
-        columnNumber: 120
-      }
-    }, __jsx("i", {
+    return card.Minsta_belopp_betala == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 107,
-        columnNumber: 185
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 107,
-        columnNumber: 277
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Minsta_belopp_betala);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 110,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Betalningsanm\xE4rkningar: "), cards.map(card => {
-    return card.Betalningsanmärkningar == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 113,
-        columnNumber: 77
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113,
-          columnNumber: 138
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 113,
-        columnNumber: 122
-      }
-    }, __jsx("i", {
+    return card.Betalningsanmärkningar == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 113,
-        columnNumber: 187
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 113,
-        columnNumber: 279
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Betalningsanmärkningar);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 116,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 117,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Aviavgift: "), cards.map(card => {
-    return card.Aviavgift == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 119,
-        columnNumber: 64
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 119,
-          columnNumber: 125
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 119,
-        columnNumber: 109
-      }
-    }, __jsx("i", {
+    return card.Aviavgift == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 119,
-        columnNumber: 174
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 119,
-        columnNumber: 266
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Aviavgift);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 122,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 123,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "F\xF6rseningsavgift: "), cards.map(card => {
-    return card.Förseningsavgift == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 125,
-        columnNumber: 71
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 125,
-          columnNumber: 132
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 125,
-        columnNumber: 116
-      }
-    }, __jsx("i", {
+    return card.Förseningsavgift == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 125,
-        columnNumber: 181
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 125,
-        columnNumber: 273
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Förseningsavgift);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 129,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Dr\xF6jsm\xE5lsr\xE4nta: "), cards.map(card => {
-    return card.Dröjsmålsränta == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 131,
-        columnNumber: 69
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 131,
-          columnNumber: 130
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 131,
-        columnNumber: 114
-      }
-    }, __jsx("i", {
+    return card.Dröjsmålsränta == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 131,
-        columnNumber: 179
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 131,
-        columnNumber: 271
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Dröjsmålsränta);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 134,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 135,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "\xD6vertrasseringsavgift: "), cards.map(card => {
-    return card.Övertrasseringsavgift == "?" ? __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 137,
-        columnNumber: 76
-      }
-    }, __jsx((_tippyjs_react__WEBPACK_IMPORTED_MODULE_2___default()), {
-      content: __jsx("span", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 137,
-          columnNumber: 137
-        }
-      }, "Vi saknar tyv\xE4rr denna information"),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 137,
-        columnNumber: 121
-      }
-    }, __jsx("i", {
+    return card.Övertrasseringsavgift == "?" ? CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx((react_default()), {
+      content: CompareTable_jsx("span", null, "Vi saknar tyv\xE4rr denna information")
+    }, CompareTable_jsx("i", {
       style: {
         color: 'rgba(0,0,0,.25)'
       },
-      className: "fas fa-question-circle",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 137,
-        columnNumber: 186
-      }
-    }))) : __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 137,
-        columnNumber: 278
-      }
+      className: "fas fa-question-circle"
+    }))) : CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
     }, card.Övertrasseringsavgift);
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 140,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 141,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }, "Recension: "), cards.map(card => {
-    return __jsx("td", {
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      key: card._id,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 143,
-        columnNumber: 40
-      }
-    }, __jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-      href: `/kort/${card.cardId}`,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 143,
-        columnNumber: 85
-      }
+    return CompareTable_jsx("td", {
+      className: (CompareTable_module_default()).tdCard,
+      key: card._id
+    }, CompareTable_jsx(next_link.default, {
+      href: `/kort/${card.cardId}`
     }, "L\xE4s mer h\xE4r"));
-  })), __jsx("tr", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 146,
-      columnNumber: 29
-    }
-  }, __jsx("td", {
-    className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().Statment),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 147,
-      columnNumber: 33
-    }
+  })), CompareTable_jsx("tr", null, CompareTable_jsx("td", {
+    className: (CompareTable_module_default()).Statment
   }), cards.map(card => {
-    return __jsx("td", {
+    return CompareTable_jsx("td", {
       style: {
         height: '80px'
       },
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default().tdCard),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 149,
-        columnNumber: 40
-      }
-    }, __jsx("a", {
+      className: (CompareTable_module_default()).tdCard
+    }, CompareTable_jsx("a", {
       href: card.affliate,
-      className: (_CompareTable_module_css__WEBPACK_IMPORTED_MODULE_4___default()["AnsökLink"]),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 149,
-        columnNumber: 94
-      }
+      className: (CompareTable_module_default())["AnsökLink"]
     }, "Ans\xF6k nu!"));
   }))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (CompareTable);
+/* harmony default export */ var CompareTable_CompareTable = (CompareTable);
+;// CONCATENATED MODULE: ./src/pages/jamfor.tsx
 
-/***/ }),
-
-/***/ "./src/components/Compare/Header/Header.tsx":
-/*!**************************************************!*\
-  !*** ./src/components/Compare/Header/Header.tsx ***!
-  \**************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Header.module.css */ "./src/components/Compare/Header/Header.module.css");
-/* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Header_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _hoc_Container_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../hoc/Container/Container */ "./src/hoc/Container/Container.tsx");
-/* harmony import */ var _TextHeader_TextHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TextHeader/TextHeader */ "./src/components/Compare/Header/TextHeader/TextHeader.tsx");
-var _jsxFileName = "D:\\Kreditkortskoll\\Client\\src\\components\\Compare\\Header\\Header.tsx";
-var __jsx = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement);
-
-
- // Components
-
-
-
-const Header = () => {
-  return __jsx("div", {
-    id: (_Header_module_css__WEBPACK_IMPORTED_MODULE_3___default().Header),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 12
-    }
-  }, __jsx(_hoc_Container_Container__WEBPACK_IMPORTED_MODULE_1__.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 13
-    }
-  }, __jsx(_TextHeader_TextHeader__WEBPACK_IMPORTED_MODULE_2__.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 21
-    }
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Header);
-
-/***/ }),
-
-/***/ "./src/components/Compare/Header/TextHeader/TextHeader.tsx":
-/*!*****************************************************************!*\
-  !*** ./src/components/Compare/Header/TextHeader/TextHeader.tsx ***!
-  \*****************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _TextHeader_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TextHeader.module.css */ "./src/components/Compare/Header/TextHeader/TextHeader.module.css");
-/* harmony import */ var _TextHeader_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_TextHeader_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\Kreditkortskoll\\Client\\src\\components\\Compare\\Header\\TextHeader\\TextHeader.tsx";
-var __jsx = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement);
-
-
-
-const TextHeader = () => {
-  return __jsx("div", {
-    id: (_TextHeader_module_css__WEBPACK_IMPORTED_MODULE_1___default().TextHeader),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 12
-    }
-  }, __jsx("div", {
-    id: (_TextHeader_module_css__WEBPACK_IMPORTED_MODULE_1___default().HeadingTitle),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
-    }
-  }, __jsx("h1", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 13
-    }
-  }, "J\xE4mf\xF6r kreditkorten f\xF6r att hitta det som passar dig b\xE4st")), __jsx("div", {
-    id: (_TextHeader_module_css__WEBPACK_IMPORTED_MODULE_1___default().HeadingDescription),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 9
-    }
-  }, __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 13
-    }
-  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis repellat non reiciendis deserunt dignissimos at suscipit quas saepe blanditiis, obcaecati eveniet ratione a modi consectetur sit eos eaque doloribus dolore?")));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (TextHeader);
-
-/***/ }),
-
-/***/ "./src/pages/jamfor.tsx":
-/*!******************************!*\
-  !*** ./src/pages/jamfor.tsx ***!
-  \******************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "getServerSideProps": function() { return /* binding */ getServerSideProps; }
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _resources_Cards__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../resources/Cards */ "./src/resources/Cards.ts");
-/* harmony import */ var _components_Compare_Header_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Compare/Header/Header */ "./src/components/Compare/Header/Header.tsx");
-/* harmony import */ var _components_Compare_CompareTable_CompareTable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Compare/CompareTable/CompareTable */ "./src/components/Compare/CompareTable/CompareTable.tsx");
-var _jsxFileName = "D:\\Kreditkortskoll\\Client\\src\\pages\\jamfor.tsx";
-
-var __jsx = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement);
+var jamfor_jsx = (external_react_default()).createElement;
 // import React from 'react';
 // import { Card as CreditCardInterface } from '../classes/CreditCard';
 
@@ -1498,59 +486,13 @@ var __jsx = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement);
 const Compare = ({
   cards
 }) => {
-  return __jsx("div", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 12
-    }
-  }, __jsx((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 7
-    }
-  }, __jsx("meta", {
+  return jamfor_jsx("div", null, jamfor_jsx((head_default()), null, jamfor_jsx("meta", {
     key: "5r42",
-    charSet: "UTF-8",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 9
-    }
-  }), __jsx("title", {
-    key: "5r2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 9
-    }
-  }, "Kreditkortskoll.com | J\xE4mf\xF6r kreditkort")), __jsx("main", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 7
-    }
-  }, __jsx(_components_Compare_Header_Header__WEBPACK_IMPORTED_MODULE_3__.default, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 9
-    }
-  }), __jsx(_components_Compare_CompareTable_CompareTable__WEBPACK_IMPORTED_MODULE_4__.default, {
-    cards: cards,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 9
-    }
+    charSet: "UTF-8"
+  }), jamfor_jsx("title", {
+    key: "5r2"
+  }, "Kreditkortskoll.com | J\xE4mf\xF6r kreditkort")), jamfor_jsx("main", null, jamfor_jsx(Header_Header, null), jamfor_jsx(CompareTable_CompareTable, {
+    cards: cards
   })));
 };
 
@@ -1562,8 +504,8 @@ const getServerSideProps = async context => {
 
     if (!ids || ids.length < 0) throw new Error(); // Fetch card information
 
-    let res = await (0,_resources_Cards__WEBPACK_IMPORTED_MODULE_2__.getCompareCards)(ids);
-    const promises = [(0,_resources_Cards__WEBPACK_IMPORTED_MODULE_2__.getCompareCards)(ids), (0,_resources_Cards__WEBPACK_IMPORTED_MODULE_2__.getBestCard)()];
+    let res = await (0,Cards/* getCompareCards */.WB)(ids);
+    const promises = [(0,Cards/* getCompareCards */.WB)(ids), (0,Cards/* getBestCard */.ZL)()];
     const responses = await Promise.all(promises);
     const compareResponse = responses[0];
     const bestcardResponse = responses[1]; // Check if cards are true
@@ -1586,14 +528,11 @@ const getServerSideProps = async context => {
     };
   }
 };
-/* harmony default export */ __webpack_exports__["default"] = (Compare);
+/* harmony default export */ var jamfor = (Compare);
 
 /***/ }),
 
-/***/ "./src/components/Compare/CompareTable/CompareTable.module.css":
-/*!*********************************************************************!*\
-  !*** ./src/components/Compare/CompareTable/CompareTable.module.css ***!
-  \*********************************************************************/
+/***/ 5261:
 /***/ (function(module) {
 
 // Exports
@@ -1610,10 +549,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./src/components/Compare/Header/Header.module.css":
-/*!*********************************************************!*\
-  !*** ./src/components/Compare/Header/Header.module.css ***!
-  \*********************************************************/
+/***/ 9295:
 /***/ (function(module) {
 
 // Exports
@@ -1624,10 +560,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./src/components/Compare/Header/TextHeader/TextHeader.module.css":
-/*!************************************************************************!*\
-  !*** ./src/components/Compare/Header/TextHeader/TextHeader.module.css ***!
-  \************************************************************************/
+/***/ 6301:
 /***/ (function(module) {
 
 // Exports
@@ -1642,20 +575,25 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/tippy.js/dist/tippy.css":
-/*!**********************************************!*\
-  !*** ./node_modules/tippy.js/dist/tippy.css ***!
-  \**********************************************/
+/***/ 2403:
+/***/ (function(module) {
+
+// Exports
+module.exports = {
+	"Container": "Container_Container__2FiPT"
+};
+
+
+/***/ }),
+
+/***/ 8933:
 /***/ (function() {
 
 
 
 /***/ }),
 
-/***/ "@tippyjs/react":
-/*!*********************************!*\
-  !*** external "@tippyjs/react" ***!
-  \*********************************/
+/***/ 7836:
 /***/ (function(module) {
 
 "use strict";
@@ -1663,10 +601,7 @@ module.exports = require("@tippyjs/react");;
 
 /***/ }),
 
-/***/ "axios":
-/*!************************!*\
-  !*** external "axios" ***!
-  \************************/
+/***/ 2376:
 /***/ (function(module) {
 
 "use strict";
@@ -1674,10 +609,7 @@ module.exports = require("axios");;
 
 /***/ }),
 
-/***/ "../next-server/lib/router-context":
-/*!**************************************************************!*\
-  !*** external "next/dist/next-server/lib/router-context.js" ***!
-  \**************************************************************/
+/***/ 8417:
 /***/ (function(module) {
 
 "use strict";
@@ -1685,10 +617,7 @@ module.exports = require("next/dist/next-server/lib/router-context.js");;
 
 /***/ }),
 
-/***/ "../next-server/lib/router/utils/get-asset-path-from-route":
-/*!**************************************************************************************!*\
-  !*** external "next/dist/next-server/lib/router/utils/get-asset-path-from-route.js" ***!
-  \**************************************************************************************/
+/***/ 2238:
 /***/ (function(module) {
 
 "use strict";
@@ -1696,10 +625,7 @@ module.exports = require("next/dist/next-server/lib/router/utils/get-asset-path-
 
 /***/ }),
 
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
+/***/ 701:
 /***/ (function(module) {
 
 "use strict";
@@ -1707,10 +633,7 @@ module.exports = require("next/head");;
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 9297:
 /***/ (function(module) {
 
 "use strict";
@@ -1718,14 +641,10 @@ module.exports = require("react");;
 
 /***/ }),
 
-/***/ "react-is":
-/*!***************************!*\
-  !*** external "react-is" ***!
-  \***************************/
-/***/ (function(module) {
+/***/ 4453:
+/***/ (function() {
 
-"use strict";
-module.exports = require("react-is");;
+/* (ignored) */
 
 /***/ })
 
@@ -1736,8 +655,7 @@ module.exports = require("react-is");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-var __webpack_exports__ = __webpack_require__.X(0, ["vendors-node_modules_next_link_js","src_hoc_Container_Container_tsx-src_resources_Cards_ts"], function() { return __webpack_exec__("./src/pages/jamfor.tsx"); });
+var __webpack_exports__ = __webpack_require__.X(0, [75,664,467], function() { return __webpack_exec__(129); });
 module.exports = __webpack_exports__;
 
 })();
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly93aXRoLXR5cGVzY3JpcHQvLi9zcmMvY29tcG9uZW50cy9Db21wYXJlL0NvbXBhcmVUYWJsZS9Db21wYXJlVGFibGUudHN4Iiwid2VicGFjazovL3dpdGgtdHlwZXNjcmlwdC8uL3NyYy9jb21wb25lbnRzL0NvbXBhcmUvSGVhZGVyL0hlYWRlci50c3giLCJ3ZWJwYWNrOi8vd2l0aC10eXBlc2NyaXB0Ly4vc3JjL2NvbXBvbmVudHMvQ29tcGFyZS9IZWFkZXIvVGV4dEhlYWRlci9UZXh0SGVhZGVyLnRzeCIsIndlYnBhY2s6Ly93aXRoLXR5cGVzY3JpcHQvLi9zcmMvcGFnZXMvamFtZm9yLnRzeCIsIndlYnBhY2s6Ly93aXRoLXR5cGVzY3JpcHQvLi9zcmMvY29tcG9uZW50cy9Db21wYXJlL0NvbXBhcmVUYWJsZS9Db21wYXJlVGFibGUubW9kdWxlLmNzcyIsIndlYnBhY2s6Ly93aXRoLXR5cGVzY3JpcHQvLi9zcmMvY29tcG9uZW50cy9Db21wYXJlL0hlYWRlci9IZWFkZXIubW9kdWxlLmNzcyIsIndlYnBhY2s6Ly93aXRoLXR5cGVzY3JpcHQvLi9zcmMvY29tcG9uZW50cy9Db21wYXJlL0hlYWRlci9UZXh0SGVhZGVyL1RleHRIZWFkZXIubW9kdWxlLmNzcyIsIndlYnBhY2s6Ly93aXRoLXR5cGVzY3JpcHQvZXh0ZXJuYWwgXCJAdGlwcHlqcy9yZWFjdFwiIiwid2VicGFjazovL3dpdGgtdHlwZXNjcmlwdC9leHRlcm5hbCBcImF4aW9zXCIiLCJ3ZWJwYWNrOi8vd2l0aC10eXBlc2NyaXB0L2V4dGVybmFsIFwibmV4dC9kaXN0L25leHQtc2VydmVyL2xpYi9yb3V0ZXItY29udGV4dC5qc1wiIiwid2VicGFjazovL3dpdGgtdHlwZXNjcmlwdC9leHRlcm5hbCBcIm5leHQvZGlzdC9uZXh0LXNlcnZlci9saWIvcm91dGVyL3V0aWxzL2dldC1hc3NldC1wYXRoLWZyb20tcm91dGUuanNcIiIsIndlYnBhY2s6Ly93aXRoLXR5cGVzY3JpcHQvZXh0ZXJuYWwgXCJuZXh0L2hlYWRcIiIsIndlYnBhY2s6Ly93aXRoLXR5cGVzY3JpcHQvZXh0ZXJuYWwgXCJyZWFjdFwiIiwid2VicGFjazovL3dpdGgtdHlwZXNjcmlwdC9leHRlcm5hbCBcInJlYWN0LWlzXCIiXSwibmFtZXMiOlsiQ29tcGFyZVRhYmxlIiwiY2FyZHMiLCJzdHlsZXMiLCJiYWNrZ3JvdW5kIiwibWFwIiwiY2FyZCIsIl9pZCIsInVybCIsImNhcmROYW1lIiwiw4Vyc2F2Z2lmdCIsImNvbG9yIiwiSMO2Z3N0YV9rcmVkaXQiLCJSw6RudGEiLCJFZmZla3Rpdl9yw6RudGEiLCJSw6RudGVmcml0dCIsIkJvbnVzIiwiRsO2cnPDpGtyaW5nYXIiLCJDb25jaWVyZ2VfU2VydmljZSIsIktvcnR0eXAiLCLDhWxkZXJzZ3LDpG5zIiwiSW5rb21zdGtyYXYiLCJWYWx1dGFww6VzbGFnX3V0bGFuZGUiLCJVdHRhZ3NhdmdpZnQiLCJNaW5zdGFfYmVsb3BwX2JldGFsYSIsIkJldGFsbmluZ3Nhbm3DpHJrbmluZ2FyIiwiQXZpYXZnaWZ0IiwiRsO2cnNlbmluZ3NhdmdpZnQiLCJEcsO2anNtw6Vsc3LDpG50YSIsIsOWdmVydHJhc3NlcmluZ3NhdmdpZnQiLCJjYXJkSWQiLCJoZWlnaHQiLCJhZmZsaWF0ZSIsIkhlYWRlciIsIlRleHRIZWFkZXIiLCJDb21wYXJlIiwiZ2V0U2VydmVyU2lkZVByb3BzIiwiY29udGV4dCIsImlkcyIsInF1ZXJ5IiwiY29uc29sZSIsImxvZyIsImxlbmd0aCIsIkVycm9yIiwicmVzIiwiZ2V0Q29tcGFyZUNhcmRzIiwicHJvbWlzZXMiLCJnZXRCZXN0Q2FyZCIsInJlc3BvbnNlcyIsIlByb21pc2UiLCJhbGwiLCJjb21wYXJlUmVzcG9uc2UiLCJiZXN0Y2FyZFJlc3BvbnNlIiwiZXJyb3IiLCJiZXN0Y2FyZCIsInByb3BzIiwiZSIsInJlZGlyZWN0IiwiZGVzdGluYXRpb24iLCJwZXJtYW5lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7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QUFLLEVBQUcwQyxHQUFHLENBQUMxQyxLQURQO0FBRUxvRCxnQkFBUSxFQUFFRixnQkFBZ0IsQ0FBQ0U7QUFGdEI7QUFERixLQUFQO0FBTUQsR0E1QkQsQ0E0QkUsT0FBT0UsQ0FBUCxFQUFVO0FBRVo7QUFDRSxXQUFPO0FBQ0xDLGNBQVEsRUFBRTtBQUNSQyxtQkFBVyxFQUFHLEdBRE47QUFFUkMsaUJBQVMsRUFBRTtBQUZIO0FBREwsS0FBUDtBQU1EO0FBQ0YsQ0F2Q007QUF5Q1QsK0RBQWV4QixPQUFmLEU7Ozs7Ozs7Ozs7QUN2RUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7Ozs7Ozs7Ozs7O0FDVEE7QUFDQTtBQUNBO0FBQ0E7Ozs7Ozs7Ozs7O0FDSEE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQ1BBLDRDOzs7Ozs7Ozs7OztBQ0FBLG1DOzs7Ozs7Ozs7OztBQ0FBLHlFOzs7Ozs7Ozs7OztBQ0FBLGlHOzs7Ozs7Ozs7OztBQ0FBLHVDOzs7Ozs7Ozs7OztBQ0FBLG1DOzs7Ozs7Ozs7OztBQ0FBLHNDIiwiZmlsZSI6InBhZ2VzL2phbWZvci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZXMgZnJvbSAnLi9Db21wYXJlVGFibGUubW9kdWxlLmNzcyc7XHJcblxyXG4vLyBDb21wb25lbnRzXHJcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XHJcbmltcG9ydCBUaXBweSBmcm9tICdAdGlwcHlqcy9yZWFjdCc7XHJcbmltcG9ydCAndGlwcHkuanMvZGlzdC90aXBweS5jc3MnO1xyXG5cclxuLy8gSW50ZXJmYWNlc1xyXG5pbXBvcnQgeyBDb21wYXJlQ2FyZHMgfSBmcm9tICcuLi8uLi8uLi9pbnRlcmZhY2VzL0NvbXBhcmVDYXJkcyc7XHJcblxyXG5pbnRlcmZhY2UgUHJvcHMge1xyXG4gICAgY2FyZHM6IENvbXBhcmVDYXJkc1tdO1xyXG59XHJcblxyXG5jb25zdCBDb21wYXJlVGFibGUgOiBSZWFjdC5GdW5jdGlvbkNvbXBvbmVudDxQcm9wcz4gPSAoeyBjYXJkcyB9KSA6IEpTWC5FbGVtZW50ID0+IHtcclxuICAgIHJldHVybiA8ZGl2IGlkPXtzdHlsZXMuQ29tcGFyZX0+XHJcbiAgICAgICAgPGRpdiBpZD17c3R5bGVzLmNvbXBhcmVUYWJsZX0+XHJcbiAgICAgICAgICAgICAgICA8dGFibGU+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDx0Ym9keT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ciBjbGFzc05hbWU9e3N0eWxlcy5Ub3BUcn0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIHN0eWxlPXt7YmFja2dyb3VuZDond2hpdGUnfX0+PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Y2FyZHMubWFwKGNhcmQgPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiA8dGQgY2xhc3NOYW1lPXtzdHlsZXMuaW5mb30ga2V5PXtjYXJkLl9pZH0+PGltZyBzcmM9e2NhcmQudXJsfSAvPjxiciAvPiA8Yj57Y2FyZC5jYXJkTmFtZX08L2I+PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT17c3R5bGVzLlN0YXRtZW50fT7DhXJzYXZnaWZ0OiA8L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtjYXJkcy5tYXAoY2FyZCA9PiB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGNhcmQuw4Vyc2F2Z2lmdCA9PSBcIj9cIiA/IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PjxUaXBweSBjb250ZW50PXs8c3Bhbj5WaSBzYWtuYXIgdHl2w6RyciBkZW5uYSBpbmZvcm1hdGlvbjwvc3Bhbj59PjxpIHN0eWxlPXt7Y29sb3I6J3JnYmEoMCwwLDAsLjI1KSd9fSBjbGFzc05hbWU9XCJmYXMgZmEtcXVlc3Rpb24tY2lyY2xlXCI+PC9pPjwvVGlwcHk+PC90ZD4gOiA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT57Y2FyZC7DhXJzYXZnaWZ0fTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9e3N0eWxlcy5TdGF0bWVudH0+SMO2Z3N0YSBrcmVkaXQ6IDwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2NhcmRzLm1hcChjYXJkID0+IHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gY2FyZC5Iw7Znc3RhX2tyZWRpdCA9PSBcIj9cIiA/IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PjxUaXBweSBjb250ZW50PXs8c3Bhbj5WaSBzYWtuYXIgdHl2w6RyciBkZW5uYSBpbmZvcm1hdGlvbjwvc3Bhbj59PjxpIHN0eWxlPXt7Y29sb3I6J3JnYmEoMCwwLDAsLjI1KSd9fSBjbGFzc05hbWU9XCJmYXMgZmEtcXVlc3Rpb24tY2lyY2xlXCI+PC9pPjwvVGlwcHk+PC90ZD4gOiA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT57Y2FyZC5Iw7Znc3RhX2tyZWRpdH08L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPXtzdHlsZXMuU3RhdG1lbnR9PlLDpG50YTogPC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Y2FyZHMubWFwKGNhcmQgPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBjYXJkLlLDpG50YSA9PSBcIj9cIiA/IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PjxUaXBweSBjb250ZW50PXs8c3Bhbj5WaSBzYWtuYXIgdHl2w6RyciBkZW5uYSBpbmZvcm1hdGlvbjwvc3Bhbj59PjxpIHN0eWxlPXt7Y29sb3I6J3JnYmEoMCwwLDAsLjI1KSd9fSBjbGFzc05hbWU9XCJmYXMgZmEtcXVlc3Rpb24tY2lyY2xlXCI+PC9pPjwvVGlwcHk+PC90ZD4gOiA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT57Y2FyZC5Sw6RudGF9PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT17c3R5bGVzLlN0YXRtZW50fT5FZmZla3RpdiByw6RudGE6IDwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2NhcmRzLm1hcChjYXJkID0+IHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gY2FyZC5FZmZla3Rpdl9yw6RudGEgPT0gXCI/XCIgPyA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT48VGlwcHkgY29udGVudD17PHNwYW4+Vmkgc2FrbmFyIHR5dsOkcnIgZGVubmEgaW5mb3JtYXRpb248L3NwYW4+fT48aSBzdHlsZT17e2NvbG9yOidyZ2JhKDAsMCwwLC4yNSknfX0gY2xhc3NOYW1lPVwiZmFzIGZhLXF1ZXN0aW9uLWNpcmNsZVwiPjwvaT48L1RpcHB5PjwvdGQ+IDogPHRkIGNsYXNzTmFtZT17c3R5bGVzLnRkQ2FyZH0ga2V5PXtjYXJkLl9pZH0+e2NhcmQuRWZmZWt0aXZfcsOkbnRhfTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9e3N0eWxlcy5TdGF0bWVudH0+UsOkbnRlZnJpdHQ6IDwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2NhcmRzLm1hcChjYXJkID0+IHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gY2FyZC5Sw6RudGVmcml0dCA9PSBcIj9cIiA/IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PjxUaXBweSBjb250ZW50PXs8c3Bhbj5WaSBzYWtuYXIgdHl2w6RyciBkZW5uYSBpbmZvcm1hdGlvbjwvc3Bhbj59PjxpIHN0eWxlPXt7Y29sb3I6J3JnYmEoMCwwLDAsLjI1KSd9fSBjbGFzc05hbWU9XCJmYXMgZmEtcXVlc3Rpb24tY2lyY2xlXCI+PC9pPjwvVGlwcHk+PC90ZD4gOiA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT57Y2FyZC5Sw6RudGVmcml0dH08L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPXtzdHlsZXMuU3RhdG1lbnR9PkJvbnVzOiA8L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtjYXJkcy5tYXAoY2FyZCA9PiB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGNhcmQuQm9udXMgPT0gXCI/XCIgPyA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT48VGlwcHkgY29udGVudD17PHNwYW4+Vmkgc2FrbmFyIHR5dsOkcnIgZGVubmEgaW5mb3JtYXRpb248L3NwYW4+fT48aSBzdHlsZT17e2NvbG9yOidyZ2JhKDAsMCwwLC4yNSknfX0gY2xhc3NOYW1lPVwiZmFzIGZhLXF1ZXN0aW9uLWNpcmNsZVwiPjwvaT48L1RpcHB5PjwvdGQ+IDogPHRkIGNsYXNzTmFtZT17c3R5bGVzLnRkQ2FyZH0ga2V5PXtjYXJkLl9pZH0+e2NhcmQuQm9udXN9PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT17c3R5bGVzLlN0YXRtZW50fT5Gw7Zyc8Oka3JpbmdhcjogPC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Y2FyZHMubWFwKGNhcmQgPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBjYXJkLkbDtnJzw6RrcmluZ2FyID09IFwiP1wiID8gPHRkIGNsYXNzTmFtZT17c3R5bGVzLnRkQ2FyZH0ga2V5PXtjYXJkLl9pZH0+PFRpcHB5IGNvbnRlbnQ9ezxzcGFuPlZpIHNha25hciB0eXbDpHJyIGRlbm5hIGluZm9ybWF0aW9uPC9zcGFuPn0+PGkgc3R5bGU9e3tjb2xvcjoncmdiYSgwLDAsMCwuMjUpJ319IGNsYXNzTmFtZT1cImZhcyBmYS1xdWVzdGlvbi1jaXJjbGVcIj48L2k+PC9UaXBweT48L3RkPiA6IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PntjYXJkLkbDtnJzw6RrcmluZ2FyfTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9e3N0eWxlcy5TdGF0bWVudH0+Q29uY2llcmdlIFNlcnZpY2U6IDwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2NhcmRzLm1hcChjYXJkID0+IHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gY2FyZC5Db25jaWVyZ2VfU2VydmljZSA9PSBcIj9cIiA/IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PjxUaXBweSBjb250ZW50PXs8c3Bhbj5WaSBzYWtuYXIgdHl2w6RyciBkZW5uYSBpbmZvcm1hdGlvbjwvc3Bhbj59PjxpIHN0eWxlPXt7Y29sb3I6J3JnYmEoMCwwLDAsLjI1KSd9fSBjbGFzc05hbWU9XCJmYXMgZmEtcXVlc3Rpb24tY2lyY2xlXCI+PC9pPjwvVGlwcHk+PC90ZD4gOiA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT57Y2FyZC5Db25jaWVyZ2VfU2VydmljZX08L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPXtzdHlsZXMuU3RhdG1lbnR9PktvcnR0eXA6IDwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2NhcmRzLm1hcChjYXJkID0+IHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gY2FyZC5Lb3J0dHlwID09IFwiP1wiID8gPHRkIGNsYXNzTmFtZT17c3R5bGVzLnRkQ2FyZH0ga2V5PXtjYXJkLl9pZH0+PFRpcHB5IGNvbnRlbnQ9ezxzcGFuPlZpIHNha25hciB0eXbDpHJyIGRlbm5hIGluZm9ybWF0aW9uPC9zcGFuPn0+PGkgc3R5bGU9e3tjb2xvcjoncmdiYSgwLDAsMCwuMjUpJ319IGNsYXNzTmFtZT1cImZhcyBmYS1xdWVzdGlvbi1jaXJjbGVcIj48L2k+PC9UaXBweT48L3RkPiA6IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PntjYXJkLktvcnR0eXB9PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT17c3R5bGVzLlN0YXRtZW50fT7DhWxkZXJzZ3LDpG5zOiA8L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtjYXJkcy5tYXAoY2FyZCA9PiB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGNhcmQuw4VsZGVyc2dyw6RucyA9PSBcIj9cIiA/IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PjxUaXBweSBjb250ZW50PXs8c3Bhbj5WaSBzYWtuYXIgdHl2w6RyciBkZW5uYSBpbmZvcm1hdGlvbjwvc3Bhbj59PjxpIHN0eWxlPXt7Y29sb3I6J3JnYmEoMCwwLDAsLjI1KSd9fSBjbGFzc05hbWU9XCJmYXMgZmEtcXVlc3Rpb24tY2lyY2xlXCI+PC9pPjwvVGlwcHk+PC90ZD4gOiA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT57Y2FyZC7DhWxkZXJzZ3LDpG5zfTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9e3N0eWxlcy5TdGF0bWVudH0+SW5rb21zdGtyYXY6IDwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2NhcmRzLm1hcChjYXJkID0+IHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gY2FyZC5JbmtvbXN0a3JhdiA9PSBcIj9cIiA/IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PjxUaXBweSBjb250ZW50PXs8c3Bhbj5WaSBzYWtuYXIgdHl2w6RyciBkZW5uYSBpbmZvcm1hdGlvbjwvc3Bhbj59PjxpIHN0eWxlPXt7Y29sb3I6J3JnYmEoMCwwLDAsLjI1KSd9fSBjbGFzc05hbWU9XCJmYXMgZmEtcXVlc3Rpb24tY2lyY2xlXCI+PC9pPjwvVGlwcHk+PC90ZD4gOiA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT57Y2FyZC5JbmtvbXN0a3Jhdn08L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPXtzdHlsZXMuU3RhdG1lbnR9PlZhbHV0YXDDpXNsYWcgaSB1dGxhbmRldDogPC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Y2FyZHMubWFwKGNhcmQgPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBjYXJkLlZhbHV0YXDDpXNsYWdfdXRsYW5kZSA9PSBcIj9cIiA/IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PjxUaXBweSBjb250ZW50PXs8c3Bhbj5WaSBzYWtuYXIgdHl2w6RyciBkZW5uYSBpbmZvcm1hdGlvbjwvc3Bhbj59PjxpIHN0eWxlPXt7Y29sb3I6J3JnYmEoMCwwLDAsLjI1KSd9fSBjbGFzc05hbWU9XCJmYXMgZmEtcXVlc3Rpb24tY2lyY2xlXCI+PC9pPjwvVGlwcHk+PC90ZD4gOiA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT57Y2FyZC5WYWx1dGFww6VzbGFnX3V0bGFuZGV9PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT17c3R5bGVzLlN0YXRtZW50fT5VdHRhZ3NhdmdpZnQ6IDwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2NhcmRzLm1hcChjYXJkID0+IHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gY2FyZC5VdHRhZ3NhdmdpZnQgPT0gXCI/XCIgPyA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT48VGlwcHkgY29udGVudD17PHNwYW4+Vmkgc2FrbmFyIHR5dsOkcnIgZGVubmEgaW5mb3JtYXRpb248L3NwYW4+fT48aSBzdHlsZT17e2NvbG9yOidyZ2JhKDAsMCwwLC4yNSknfX0gY2xhc3NOYW1lPVwiZmFzIGZhLXF1ZXN0aW9uLWNpcmNsZVwiPjwvaT48L1RpcHB5PjwvdGQ+IDogPHRkIGNsYXNzTmFtZT17c3R5bGVzLnRkQ2FyZH0ga2V5PXtjYXJkLl9pZH0+e2NhcmQuVXR0YWdzYXZnaWZ0fTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9e3N0eWxlcy5TdGF0bWVudH0+TWluc3RhIGJlbG9wcCBhdHQgYmV0YWxhOiA8L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtjYXJkcy5tYXAoY2FyZCA9PiB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGNhcmQuTWluc3RhX2JlbG9wcF9iZXRhbGEgPT0gXCI/XCIgPyA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT48VGlwcHkgY29udGVudD17PHNwYW4+Vmkgc2FrbmFyIHR5dsOkcnIgZGVubmEgaW5mb3JtYXRpb248L3NwYW4+fT48aSBzdHlsZT17e2NvbG9yOidyZ2JhKDAsMCwwLC4yNSknfX0gY2xhc3NOYW1lPVwiZmFzIGZhLXF1ZXN0aW9uLWNpcmNsZVwiPjwvaT48L1RpcHB5PjwvdGQ+IDogPHRkIGNsYXNzTmFtZT17c3R5bGVzLnRkQ2FyZH0ga2V5PXtjYXJkLl9pZH0+e2NhcmQuTWluc3RhX2JlbG9wcF9iZXRhbGF9PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT17c3R5bGVzLlN0YXRtZW50fT5CZXRhbG5pbmdzYW5tw6Rya25pbmdhcjogPC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Y2FyZHMubWFwKGNhcmQgPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBjYXJkLkJldGFsbmluZ3Nhbm3DpHJrbmluZ2FyID09IFwiP1wiID8gPHRkIGNsYXNzTmFtZT17c3R5bGVzLnRkQ2FyZH0ga2V5PXtjYXJkLl9pZH0+PFRpcHB5IGNvbnRlbnQ9ezxzcGFuPlZpIHNha25hciB0eXbDpHJyIGRlbm5hIGluZm9ybWF0aW9uPC9zcGFuPn0+PGkgc3R5bGU9e3tjb2xvcjoncmdiYSgwLDAsMCwuMjUpJ319IGNsYXNzTmFtZT1cImZhcyBmYS1xdWVzdGlvbi1jaXJjbGVcIj48L2k+PC9UaXBweT48L3RkPiA6IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PntjYXJkLkJldGFsbmluZ3Nhbm3DpHJrbmluZ2FyfTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9e3N0eWxlcy5TdGF0bWVudH0+QXZpYXZnaWZ0OiA8L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtjYXJkcy5tYXAoY2FyZCA9PiB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGNhcmQuQXZpYXZnaWZ0ID09IFwiP1wiID8gPHRkIGNsYXNzTmFtZT17c3R5bGVzLnRkQ2FyZH0ga2V5PXtjYXJkLl9pZH0+PFRpcHB5IGNvbnRlbnQ9ezxzcGFuPlZpIHNha25hciB0eXbDpHJyIGRlbm5hIGluZm9ybWF0aW9uPC9zcGFuPn0+PGkgc3R5bGU9e3tjb2xvcjoncmdiYSgwLDAsMCwuMjUpJ319IGNsYXNzTmFtZT1cImZhcyBmYS1xdWVzdGlvbi1jaXJjbGVcIj48L2k+PC9UaXBweT48L3RkPiA6IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PntjYXJkLkF2aWF2Z2lmdH08L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPXtzdHlsZXMuU3RhdG1lbnR9PkbDtnJzZW5pbmdzYXZnaWZ0OiA8L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtjYXJkcy5tYXAoY2FyZCA9PiB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGNhcmQuRsO2cnNlbmluZ3NhdmdpZnQgPT0gXCI/XCIgPyA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT48VGlwcHkgY29udGVudD17PHNwYW4+Vmkgc2FrbmFyIHR5dsOkcnIgZGVubmEgaW5mb3JtYXRpb248L3NwYW4+fT48aSBzdHlsZT17e2NvbG9yOidyZ2JhKDAsMCwwLC4yNSknfX0gY2xhc3NOYW1lPVwiZmFzIGZhLXF1ZXN0aW9uLWNpcmNsZVwiPjwvaT48L1RpcHB5PjwvdGQ+IDogPHRkIGNsYXNzTmFtZT17c3R5bGVzLnRkQ2FyZH0ga2V5PXtjYXJkLl9pZH0+e2NhcmQuRsO2cnNlbmluZ3NhdmdpZnR9PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT17c3R5bGVzLlN0YXRtZW50fT5EcsO2anNtw6Vsc3LDpG50YTogPC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Y2FyZHMubWFwKGNhcmQgPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBjYXJkLkRyw7Zqc23DpWxzcsOkbnRhID09IFwiP1wiID8gPHRkIGNsYXNzTmFtZT17c3R5bGVzLnRkQ2FyZH0ga2V5PXtjYXJkLl9pZH0+PFRpcHB5IGNvbnRlbnQ9ezxzcGFuPlZpIHNha25hciB0eXbDpHJyIGRlbm5hIGluZm9ybWF0aW9uPC9zcGFuPn0+PGkgc3R5bGU9e3tjb2xvcjoncmdiYSgwLDAsMCwuMjUpJ319IGNsYXNzTmFtZT1cImZhcyBmYS1xdWVzdGlvbi1jaXJjbGVcIj48L2k+PC9UaXBweT48L3RkPiA6IDx0ZCBjbGFzc05hbWU9e3N0eWxlcy50ZENhcmR9IGtleT17Y2FyZC5faWR9PntjYXJkLkRyw7Zqc23DpWxzcsOkbnRhfTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9e3N0eWxlcy5TdGF0bWVudH0+w5Z2ZXJ0cmFzc2VyaW5nc2F2Z2lmdDogPC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Y2FyZHMubWFwKGNhcmQgPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBjYXJkLsOWdmVydHJhc3NlcmluZ3NhdmdpZnQgPT0gXCI/XCIgPyA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT48VGlwcHkgY29udGVudD17PHNwYW4+Vmkgc2FrbmFyIHR5dsOkcnIgZGVubmEgaW5mb3JtYXRpb248L3NwYW4+fT48aSBzdHlsZT17e2NvbG9yOidyZ2JhKDAsMCwwLC4yNSknfX0gY2xhc3NOYW1lPVwiZmFzIGZhLXF1ZXN0aW9uLWNpcmNsZVwiPjwvaT48L1RpcHB5PjwvdGQ+IDogPHRkIGNsYXNzTmFtZT17c3R5bGVzLnRkQ2FyZH0ga2V5PXtjYXJkLl9pZH0+e2NhcmQuw5Z2ZXJ0cmFzc2VyaW5nc2F2Z2lmdH08L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPXtzdHlsZXMuU3RhdG1lbnR9PlJlY2Vuc2lvbjogPC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Y2FyZHMubWFwKGNhcmQgPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiA8dGQgY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfSBrZXk9e2NhcmQuX2lkfT48TGluayBocmVmPXtgL2tvcnQvJHtjYXJkLmNhcmRJZH1gfT5Mw6RzIG1lciBow6RyPC9MaW5rPjwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9e3N0eWxlcy5TdGF0bWVudH0+PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Y2FyZHMubWFwKGNhcmQgPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiA8dGQgc3R5bGU9e3toZWlnaHQ6JzgwcHgnfX0gY2xhc3NOYW1lPXtzdHlsZXMudGRDYXJkfT48YSBocmVmPXtjYXJkLmFmZmxpYXRlfSBjbGFzc05hbWU9e3N0eWxlcy5BbnPDtmtMaW5rfT5BbnPDtmsgbnUhPC9hPjwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSl9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L3Rib2R5PlxyXG4gICAgICAgICAgICAgICAgICAgIDwvdGFibGU+IFxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgIDwvZGl2PlxyXG59XHJcblxyXG5cclxuXHJcbmV4cG9ydCBkZWZhdWx0IENvbXBhcmVUYWJsZTsiLCJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgc3R5bGVzIGZyb20gJy4vSGVhZGVyLm1vZHVsZS5jc3MnO1xyXG5pbXBvcnQgQ29udGFpbmVyIGZyb20gJy4uLy4uLy4uL2hvYy9Db250YWluZXIvQ29udGFpbmVyJztcclxuXHJcbi8vIENvbXBvbmVudHNcclxuaW1wb3J0IFRleHRIZWFkZXIgZnJvbSAnLi9UZXh0SGVhZGVyL1RleHRIZWFkZXInO1xyXG5cclxuXHJcbmNvbnN0IEhlYWRlciA6IFJlYWN0LkZ1bmN0aW9uQ29tcG9uZW50PSAoKSA6IEpTWC5FbGVtZW50ID0+IHtcclxuICAgIHJldHVybiA8ZGl2IGlkPXtzdHlsZXMuSGVhZGVyfT5cclxuICAgICAgICAgICAgPENvbnRhaW5lcj5cclxuICAgICAgICAgICAgICAgICAgICA8VGV4dEhlYWRlciAvPiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICA8L0NvbnRhaW5lcj5cclxuICAgIDwvZGl2PlxyXG59XHJcblxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyIiwiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcclxuaW1wb3J0IHN0eWxlcyBmcm9tICcuL1RleHRIZWFkZXIubW9kdWxlLmNzcyc7XHJcblxyXG5cclxuY29uc3QgVGV4dEhlYWRlciA6IFJlYWN0LkZ1bmN0aW9uQ29tcG9uZW50ID0gKCkgOiBKU1guRWxlbWVudCA9PiB7XHJcbiAgICByZXR1cm4gPGRpdiBpZD17c3R5bGVzLlRleHRIZWFkZXJ9PlxyXG4gICAgICAgIDxkaXYgaWQ9e3N0eWxlcy5IZWFkaW5nVGl0bGV9PlxyXG4gICAgICAgICAgICA8aDE+SsOkbWbDtnIga3JlZGl0a29ydGVuIGbDtnIgYXR0IGhpdHRhIGRldCBzb20gcGFzc2FyIGRpZyBiw6RzdDwvaDE+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPGRpdiBpZD17c3R5bGVzLkhlYWRpbmdEZXNjcmlwdGlvbn0+XHJcbiAgICAgICAgICAgIDxwPkxvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNpY2luZyBlbGl0LiBEZWJpdGlzIHJlcGVsbGF0IG5vbiByZWljaWVuZGlzIGRlc2VydW50IGRpZ25pc3NpbW9zIGF0IHN1c2NpcGl0IHF1YXMgc2FlcGUgYmxhbmRpdGlpcywgb2JjYWVjYXRpIGV2ZW5pZXQgcmF0aW9uZSBhIG1vZGkgY29uc2VjdGV0dXIgc2l0IGVvcyBlYXF1ZSBkb2xvcmlidXMgZG9sb3JlPzwvcD5cclxuICAgICAgICA8L2Rpdj5cclxuPC9kaXY+XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IFRleHRIZWFkZXI7IiwiLy8gaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcclxuLy8gaW1wb3J0IHsgQ2FyZCBhcyBDcmVkaXRDYXJkSW50ZXJmYWNlIH0gZnJvbSAnLi4vY2xhc3Nlcy9DcmVkaXRDYXJkJztcclxuXHJcbmltcG9ydCB7IEdldFNlcnZlclNpZGVQcm9wcyB9IGZyb20gXCJuZXh0XCI7XHJcbmltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIlxyXG5pbXBvcnQgeyBnZXRCZXN0Q2FyZCwgZ2V0Q29tcGFyZUNhcmRzIH0gZnJvbSBcIi4uL3Jlc291cmNlcy9DYXJkc1wiO1xyXG5pbXBvcnQgeyBDb21wYXJlQ2FyZHMgfSBmcm9tICcuLi9pbnRlcmZhY2VzL0NvbXBhcmVDYXJkcyc7XHJcbmltcG9ydCBIZWFkZXIgZnJvbSAnLi4vY29tcG9uZW50cy9Db21wYXJlL0hlYWRlci9IZWFkZXInO1xyXG5pbXBvcnQgQ29tcGFyZVRhYmxlIGZyb20gJy4uL2NvbXBvbmVudHMvQ29tcGFyZS9Db21wYXJlVGFibGUvQ29tcGFyZVRhYmxlJztcclxuaW1wb3J0IHsgQmVzdENhcmQgfSBmcm9tIFwiLi4vaW50ZXJmYWNlcy9CZXN0Q2FyZFwiO1xyXG5cclxuXHJcbmludGVyZmFjZSBQcm9wcyB7XHJcbiAgICBjYXJkcyA6IENvbXBhcmVDYXJkc1tdO1xyXG59XHJcblxyXG5cclxuY29uc3QgQ29tcGFyZSA6IFJlYWN0LkZ1bmN0aW9uQ29tcG9uZW50PFByb3BzPiA9ICh7Y2FyZHN9KSA6IEpTWC5FbGVtZW50ID0+IHtcclxuICAgIHJldHVybiA8ZGl2PlxyXG4gICAgICA8SGVhZD5cclxuICAgICAgICA8bWV0YSBrZXk9XCI1cjQyXCIgY2hhclNldD1cIlVURi04XCIgLz5cclxuICAgICAgICA8dGl0bGUga2V5PVwiNXIyXCI+S3JlZGl0a29ydHNrb2xsLmNvbSB8IErDpG1mw7ZyIGtyZWRpdGtvcnQ8L3RpdGxlPlxyXG4gICAgICA8L0hlYWQ+XHJcbiAgICAgIDxtYWluPlxyXG4gICAgICAgIDxIZWFkZXIgLz5cclxuICAgICAgICA8Q29tcGFyZVRhYmxlIGNhcmRzPXtjYXJkc30gLz4gXHJcbiAgICAgIDwvbWFpbj5cclxuICAgIDwvZGl2PlxyXG4gIH1cclxuIFxyXG4gIGV4cG9ydCBjb25zdCBnZXRTZXJ2ZXJTaWRlUHJvcHMgOiBHZXRTZXJ2ZXJTaWRlUHJvcHMgPSBhc3luYyAoY29udGV4dCkgPT4ge1xyXG4gICAgdHJ5IHtcclxuICBcclxuICAgICAgLy8gR2V0IGlkcyBmcm9tIHVybFxyXG4gICAgICBjb25zdCBpZHMgPSBjb250ZXh0LnF1ZXJ5LmNhcmRzIGFzIHN0cmluZ1tdO1xyXG5cclxuICAgICAgY29uc29sZS5sb2coaWRzKVxyXG5cclxuICAgICAgLy8gQ2hlY2sgaWYgaWRzIGFyZSB0cnVlXHJcbiAgICAgIGlmKCFpZHMgfHwgaWRzLmxlbmd0aCA8IDAgKSB0aHJvdyBuZXcgRXJyb3IoKTtcclxuXHJcbiAgICAgIC8vIEZldGNoIGNhcmQgaW5mb3JtYXRpb25cclxuICAgICAgbGV0IHJlcyA9IGF3YWl0IGdldENvbXBhcmVDYXJkcyhpZHMpIGFzIHsgZXJyb3I/IDogYm9vbGVhbiAsIGNhcmRzIDogQ29tcGFyZUNhcmRzW10gfTtcclxuICAgICAgY29uc3QgcHJvbWlzZXMgPSBbZ2V0Q29tcGFyZUNhcmRzKGlkcyksIGdldEJlc3RDYXJkKCldO1xyXG4gICAgICBjb25zdCByZXNwb25zZXMgPSBhd2FpdCBQcm9taXNlLmFsbChwcm9taXNlcylcclxuXHJcblxyXG4gICAgICBjb25zdCBjb21wYXJlUmVzcG9uc2UgPSByZXNwb25zZXNbMF0gYXMgeyBlcnJvcj8gOiBib29sZWFuICwgY2FyZHMgOiBDb21wYXJlQ2FyZHNbXSB9O1xyXG4gICAgICBjb25zdCBiZXN0Y2FyZFJlc3BvbnNlID0gcmVzcG9uc2VzWzFdIGFzIHtiZXN0Y2FyZD86IEJlc3RDYXJkLCBlcnJvcj86IGJvb2xlYW59O1xyXG4gICAgICAvLyBDaGVjayBpZiBjYXJkcyBhcmUgdHJ1ZVxyXG4gICAgICBpZighY29tcGFyZVJlc3BvbnNlLmNhcmRzIHx8IGNvbXBhcmVSZXNwb25zZS5lcnJvciB8fCAhYmVzdGNhcmRSZXNwb25zZS5iZXN0Y2FyZCkgdGhyb3cgbmV3IEVycm9yKClcclxuXHJcbiAgICAgIC8vIHJldHVybiBjYXJkc1xyXG4gICAgICByZXR1cm4ge1xyXG4gICAgICAgIHByb3BzOiB7XHJcbiAgICAgICAgICBjYXJkcyA6IHJlcy5jYXJkcyxcclxuICAgICAgICAgIGJlc3RjYXJkOiBiZXN0Y2FyZFJlc3BvbnNlLmJlc3RjYXJkXHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICB9IGNhdGNoIChlKSB7XHJcblxyXG4gICAgLy8gRXJyb3IsIHJlZGlyZWN0IHRvIGhvbWUgcGFnZVxyXG4gICAgICByZXR1cm4ge1xyXG4gICAgICAgIHJlZGlyZWN0OiB7XHJcbiAgICAgICAgICBkZXN0aW5hdGlvbiA6ICcvJyxcclxuICAgICAgICAgIHBlcm1hbmVudDogZmFsc2VcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcbiAgXHJcbmV4cG9ydCBkZWZhdWx0IENvbXBhcmU7IiwiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwiQ29tcGFyZVwiOiBcIkNvbXBhcmVUYWJsZV9Db21wYXJlX18xSUNYMlwiLFxuXHRcImNvbXBhcmVUYWJsZVwiOiBcIkNvbXBhcmVUYWJsZV9jb21wYXJlVGFibGVfXzM5SURSXCIsXG5cdFwiaW5mb1wiOiBcIkNvbXBhcmVUYWJsZV9pbmZvX19kM1E3OFwiLFxuXHRcIlN0YXRtZW50XCI6IFwiQ29tcGFyZVRhYmxlX1N0YXRtZW50X18xY25hQlwiLFxuXHRcIlRvcFRyXCI6IFwiQ29tcGFyZVRhYmxlX1RvcFRyX18zOWt1aFwiLFxuXHRcInRkQ2FyZFwiOiBcIkNvbXBhcmVUYWJsZV90ZENhcmRfXzM1TDhnXCIsXG5cdFwiQW5zw7ZrTGlua1wiOiBcIkNvbXBhcmVUYWJsZV9BbnNfa0xpbmtfXzJaRXNXXCJcbn07XG4iLCIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJIZWFkZXJcIjogXCJIZWFkZXJfSGVhZGVyX19vUl9xUFwiXG59O1xuIiwiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwiVGV4dEhlYWRlclwiOiBcIlRleHRIZWFkZXJfVGV4dEhlYWRlcl9fMmYxd2NcIixcblx0XCJIZWFkaW5nVGl0bGVcIjogXCJUZXh0SGVhZGVyX0hlYWRpbmdUaXRsZV9fMllMWVJcIixcblx0XCJtb3ZlSW5SaWdodFwiOiBcIlRleHRIZWFkZXJfbW92ZUluUmlnaHRfXzJnM0lHXCIsXG5cdFwiSGVhZGluZ0Rlc2NyaXB0aW9uXCI6IFwiVGV4dEhlYWRlcl9IZWFkaW5nRGVzY3JpcHRpb25fXzFmTGVQXCIsXG5cdFwibW92ZUluTGVmdFwiOiBcIlRleHRIZWFkZXJfbW92ZUluTGVmdF9fMVlNT19cIlxufTtcbiIsIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcIkB0aXBweWpzL3JlYWN0XCIpOzsiLCJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJheGlvc1wiKTs7IiwibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwibmV4dC9kaXN0L25leHQtc2VydmVyL2xpYi9yb3V0ZXItY29udGV4dC5qc1wiKTs7IiwibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwibmV4dC9kaXN0L25leHQtc2VydmVyL2xpYi9yb3V0ZXIvdXRpbHMvZ2V0LWFzc2V0LXBhdGgtZnJvbS1yb3V0ZS5qc1wiKTs7IiwibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwibmV4dC9oZWFkXCIpOzsiLCJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJyZWFjdFwiKTs7IiwibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwicmVhY3QtaXNcIik7OyJdLCJzb3VyY2VSb290IjoiIn0=

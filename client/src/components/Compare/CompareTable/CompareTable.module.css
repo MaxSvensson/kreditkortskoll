@@ -1,6 +1,5 @@
 #Compare table {
     width: 100%;
-    font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     border-spacing: 0;
 }
@@ -59,8 +58,8 @@
 }
 
 td .AnsökLink {
-    background-color: #EE7C7D;
-    padding: 15px 60px;
+    background-color: #3468FE;
+    padding: 15px 90px;
     color: white;
     margin-top: 20px;
     border-radius: 50px;
@@ -69,9 +68,9 @@ td .AnsökLink {
 }
 td .AnsökLink:hover {
    background-color: white;
-   border: .5px solid #EE7C7D;
+   border: .5px solid #3468FE;
    cursor: pointer;
-   color: #EE7C7D;
+   color: #3468FE;
    transition: ease-in-out .2s;
 }
 

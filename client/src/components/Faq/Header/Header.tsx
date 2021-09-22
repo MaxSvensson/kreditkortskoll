@@ -8,7 +8,7 @@ import TextHeader from './TextHeader/TextHeader';
 const Header : React.FunctionComponent = () : JSX.Element => {
     return <div id={styles.Header}>
             <Container>
-                    <TextHeader />            
+                <TextHeader />            
             </Container>
     </div>
 }

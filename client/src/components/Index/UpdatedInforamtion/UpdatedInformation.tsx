@@ -13,7 +13,7 @@ const UpdatedInformation = () => {
       <div id={styles.content}>  
       <Row>
         <Col md={12} lg={6}>
-          <h4>Alltid updaterat</h4>
+          <h3>Alltid updaterat</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos vero consectetur voluptatum cum? Labore suscipit nobis cupiditate maiores at deleniti nesciunt obcaecati repellendus minima qui, quidem exercitationem excepturi eligendi non!</p>
           <ButtonWhite type="full" href="/kort" text="Utforska kort" className={styles.btn} /> 
         </Col>

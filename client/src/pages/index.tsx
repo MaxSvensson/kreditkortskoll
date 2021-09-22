@@ -26,21 +26,24 @@ class IndexPage extends React.Component<Props, State>  {
     const bestcard = this.props.bestcard
   return <div>
     <Head>
-      <title>kreditkortskoll.com</title>
+      <title>Alla kreditkort</title>
       <meta name="description" content="Kreditkortskoll.com jämför olika kreditkort för att hitta det bästa kredikortet för dig. Jämför kreditkort som Remember flex och Norwegian" />
       <meta name="robots" content="index, follow" />
     </Head>
       <Header bestcard={bestcard} />
       <main>
+        <section>
           <WhyUs />
+        </section>
+        <section>
           <UpdatedInformation />
+        </section>
+        <section>
           <TopCards creditCards={list} />
+        </section>
       </main>
-      {/* <DisplayCards creditCards={this.state.cards} />  */}
   </div>
   }
-
-
 }
 
 

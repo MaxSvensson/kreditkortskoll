@@ -24,7 +24,7 @@ const CardBox : React.FunctionComponent<Props> = ({card}) => {
         priority
         id={styles.Img}
         />
-        <ButtonWhite text="Ansök nu!" href={`/Redirect?card=${card._id}`} />
+        <ButtonWhite type="outline" text="Ansök nu!" href={`/Redirect?card=${card._id}`} />
     </div>
 }
 

@@ -44,7 +44,8 @@ const CreditCard : React.FunctionComponent<Props> = ({card}) => {
   const creditCard = new Creditcard(card)
   return <div>
     <Head>
-      <title>Kreditkortskoll.com | {card.name}</title>
+      <title>Recension av {card.name}</title>
+      <meta name="description" content={`En recension av kreditkortet ${creditCard.properties.name}. Vi listar all information om kreditkortet så du kan ta reda på om ${creditCard.properties.name} är rätt kreditkort för dig.`} />
     </Head>
     <Header ref={headerRef} creditCard={creditCard} />
     <CardInformation creditcard={creditCard} />
