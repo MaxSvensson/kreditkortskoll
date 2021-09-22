@@ -24,6 +24,7 @@ class MyApp extends App<any> {
     Router.events.on('routeChangeStart', () => NProgress.start());
     Router.events.on('routeChangeComplete', () => NProgress.done()); 
     Router.events.on('routeChangeError', () => NProgress.done());
+    
     const { Component, pageProps } = this.props
     return (
       <React.Fragment>
