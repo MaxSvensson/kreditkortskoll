@@ -1,7 +1,12 @@
 import Link from 'next/link';
 import styles from './Footer.module.css';
 
+import {useRouter} from "next/router";
+
 const Footer = () => {
+  const router = useRouter()
+
+    if(router.pathname === "/Redirect") return null;
     return <div id={styles.footer}>
       <div id={styles.logo}>
         <p>Kreditkortskoll.com</p>

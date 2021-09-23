@@ -9,9 +9,15 @@ import { getBestCard, getCards } from '../resources/Cards'
 import { CreditCards } from '../classes/CreditCards';
 import UpdatedInformation from '../components/Index/UpdatedInforamtion/UpdatedInformation';
 import Head from 'next/head';
+import Categories from '../components/Ui/Categories/Categories';
+import EmailArea from '../components/Index/EmailArea/EmailArea';
+
+
 interface State {
   cards : CreditCards;
 }
+
+
 interface Props {
     loading : boolean;
     compareIds : string[];
@@ -37,6 +43,12 @@ class IndexPage extends React.Component<Props, State>  {
         </section>
         <section>
           <UpdatedInformation />
+        </section>
+        <section>
+          <EmailArea />
+        </section>
+        <section>
+          <Categories />
         </section>
         <section>
           <TopCards creditCards={list} />

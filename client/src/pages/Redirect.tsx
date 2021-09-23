@@ -15,7 +15,7 @@ const Redirect : React.FunctionComponent<Props> = ({card}) => {
 
   useEffect(() => {
       setTimeout(() => {
-        window.location.replace(card.url);
+        // window.location.replace(card.url);
       }, 1000 )
   }, [])
 

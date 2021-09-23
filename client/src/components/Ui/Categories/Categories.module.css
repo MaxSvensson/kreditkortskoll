@@ -1,0 +1,25 @@
+#Categories {
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+    background-image: url("../../../../public/svgs/wavebackground.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    position: relative;
+}
+
+#Categories #content  {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+#Categories #content #title {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 40px;
+}

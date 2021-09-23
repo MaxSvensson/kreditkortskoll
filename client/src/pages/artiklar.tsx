@@ -5,6 +5,7 @@ import Post from '../components/Blog/Post/Post';
 import { Container, Row, Col } from 'react-grid-system';
 import { getBlogs } from '../resources/Blog';
 import { Blog } from '../interfaces/Blog';
+import IntroSection from '../components/Blog/IntroSection/IntroSection';
 
 interface Props {
    blogs: Blog[]
@@ -21,6 +22,7 @@ class IndexPage extends React.Component<Props>  {
       <Header />
       <main>
         <Container>
+          <IntroSection />
           <Row >
            {this.props.blogs.map(blog => {
            return <Col sm={12} md={6} lg={4}>

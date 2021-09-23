@@ -43,32 +43,32 @@
   cursor: pointer;
   text-decoration: none;
   transition: ease-in-out .2s;
-  border: .5px #3468FE solid;
+  border: .5px #2149BE solid;
 }
 
 .ButtonOrange:hover {
-  color: #3468FE;
+  color: #2149BE;
   background-color: transparent;
 }
 
 .outlinedBlue {
-  border: .5px #3468FE solid;
-  color: #3468FE;
+  border: .5px #2149BE solid;
+  color: #2149BE;
 }
 
 .outlinedBlue:hover {
-  background: #3468FE;
+  background: #2149BE;
   color: white;
 }
 
 .fullBlue {
-  background-color:#3468FE;
+  background-color:#2149BE;
   color: white;
 }
 
 .fullBlue:hover {
-  border: .5px #3468FE solid;
-  color: #3468FE;
+  border: .5px #2149BE solid;
+  color: #2149BE;
 }
 
 @keyframes buttonHover {

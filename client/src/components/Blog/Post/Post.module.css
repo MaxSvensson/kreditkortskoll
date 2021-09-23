@@ -48,7 +48,7 @@
 
 #Post #content a {
   display: inline-block;
-  background-color: #EE7C7D;
+  background-color: #152fb3;
   color: white;
   border-radius: 20px;
   width: 275px;
@@ -64,8 +64,8 @@
 
 #Post:hover #content a {
   background-color: white;
-  border: 1px #EE7C7D solid;
-  color: #EE7C7D;
+  border: 1px #152fb3 solid;
+  color: #152fb3;
 }
 
 @media screen and (max-width: 992px) {

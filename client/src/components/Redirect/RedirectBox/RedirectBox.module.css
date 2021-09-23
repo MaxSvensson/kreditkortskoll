@@ -5,6 +5,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  background-color: white;
-  padding: 45px;
+  background-color: #152fb3;
+  color: white;
+  width: 400px;
+  height: 250px;
+  -webkit-box-shadow: 0px 4px 22px -4px rgba(66,66,66,1);
+  -moz-box-shadow: 0px 4px 22px -4px rgba(66,66,66,1);
+  box-shadow: 0px 4px 22px -4px rgba(66,66,66,1);
+}
+
+#RedirectBox #content {
+    margin-top: 50px;
 }

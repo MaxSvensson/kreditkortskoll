@@ -1,7 +1,7 @@
 import React from 'react';
 import { CreditCard } from '../classes/CreditCard'
 import { Card as CreditCardInterface } from '../classes/CreditCard';
-import Header from '../components/Faq/Header/Header';
+import Header from '../components/Kort/Header/Header';
 import { BestCard } from '../interfaces/BestCard';
 import { getBestCard, getCards } from '../resources/Cards'
 import { CreditCards } from '../classes/CreditCards';
@@ -18,7 +18,7 @@ interface Props {
     bestcard: BestCard;
 }
 
-class IndexPage extends React.Component<Props, State>  {
+class Kort extends React.Component<Props, State>  {
   render () {
     const cards = this.props.cards.map(card => new CreditCard(card));
   return <div>
@@ -71,4 +71,4 @@ export async function getStaticProps() {
 
 }
 
-export default IndexPage
+export default Kort;

@@ -7,8 +7,10 @@ interface Props {
 
 const RedirectBox : React.FC<Props> = ({card}) => {
     return <div id={styles.RedirectBox}>
-      <h1>{card.name}</h1>
-      <p>Vi omredigerar nu dig</p>
+      <div id={styles.content}>
+        <h1>{card.name}</h1>
+        <p>Vi omredigerar nu dig</p>
+      </div>
     </div>
 }
 
