@@ -20,6 +20,7 @@ import Footer from '../components/Ui/Footer/Footer';
 
 class MyApp extends App<any> {
   render () {
+    
     NProgress.configure({ showSpinner: false });
     Router.events.on('routeChangeStart', () => NProgress.start());
     Router.events.on('routeChangeComplete', () => NProgress.done()); 

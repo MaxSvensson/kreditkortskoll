@@ -5,7 +5,6 @@ import Router from 'next/router'
 
 const NavigationButton: React.FC = () => {
   const inputRef = useRef<HTMLInputElement>(null);
-  console.log(inputRef.current?.checked)
 
   const closeNavigation = () => {
       Router.events.on('routeChangeComplete', () => {
@@ -17,6 +16,7 @@ const NavigationButton: React.FC = () => {
         inputRef.current.checked = false
       });
   }
+  
   return (
     <div id={styles.Navigation}>
       <input

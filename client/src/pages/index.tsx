@@ -11,6 +11,7 @@ import UpdatedInformation from '../components/Index/UpdatedInforamtion/UpdatedIn
 import Head from 'next/head';
 import Categories from '../components/Ui/Categories/Categories';
 import EmailArea from '../components/Index/EmailArea/EmailArea';
+import Test from '../components/Index/Test/Test';
 
 
 interface State {
@@ -45,7 +46,7 @@ class IndexPage extends React.Component<Props, State>  {
           <UpdatedInformation />
         </section>
         <section>
-          <EmailArea />
+          <Test />
         </section>
         <section>
           <Categories />
