@@ -39,12 +39,12 @@ const Navbar = () => {
     } , [])
 
     return <React.Fragment>
-      <SlideDown visible={slideDownRef.current} />
      <div id={styles.Navbar}>
       <Link href="/">
           <a id={styles.loggo}>Kreditkortskoll.com</a>
       </Link>
       <Visible lg xl xxl>
+      <SlideDown visible={slideDownRef.current} />
           <ul>
             <motion.li whileHover={{y: -2}}><Link href="/kort"><a>Alla kreditkort</a></Link></motion.li>
             <motion.li whileHover={{y: -2}}><Link href="/kategorier"><a>Kategorier</a></Link></motion.li>

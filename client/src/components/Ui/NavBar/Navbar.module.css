@@ -48,7 +48,7 @@
   height: 2px;
   background: #fff;
   border-radius: 150px;
-  transition: width .3s;
+  transition: width .5s;
 }
 
 #Navbar li a:hover:after {

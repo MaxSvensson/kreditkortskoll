@@ -1,4 +1,36 @@
+#Test {
+  display: flex;
+  margin-top: 50px;
+}
+
 #Test #Img {
+    margin-top: 200px;
     width: 400px;
     height: 400px;
-  }
+}
+
+#Test #content {
+  width: 550px;
+  margin-top: 100px;
+}
+
+#Test #content h4 {
+  font-size: 28px;
+  text-align: right;  
+  margin-bottom: 20px;
+}
+
+#Test #content .Btn {
+  width: 280px;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  margin: 10px; 
+}
+
+#Test #content p {
+  text-align: right;
+  font-size: 14px;
+}

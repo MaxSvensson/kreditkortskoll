@@ -46,7 +46,7 @@
     height: 2px;
     background: #000;
     border-radius: 150px;
-    transition: width .3s;
+    transition: width .5s;
   }
   
   #SlideDown li a:hover:after {
