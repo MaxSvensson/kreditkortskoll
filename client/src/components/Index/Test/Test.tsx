@@ -7,7 +7,7 @@ const Test : React.FC = () => {
     return <div id={styles.Test}>
         <Container>
             <Row>
-                <Col>
+                <Col md={12} lg={6}>
                     <div id={styles.imgContainer}>  
                         <Image
                             width={500}
@@ -17,7 +17,7 @@ const Test : React.FC = () => {
                         />
                     </div>
                 </Col>
-                <Col>
+                <Col md={12} lg={6}>
                     <div id={styles.content}>
                         <h4>Vårt AI test</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur non, rerum dolor dicta, maxime laboriosam natus aliquam amet modi dolorum fugiat eos ad. Eum, eaque. Non deleniti expedita molestiae animi.</p>
