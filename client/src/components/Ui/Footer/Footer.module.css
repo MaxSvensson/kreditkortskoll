@@ -1,0 +1,44 @@
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: -400px;
+  height: 65vh;
+  background-image: url("../../../../public/svgs/background2.svg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  backdrop-filter: blur( 20.0px );
+  -webkit-backdrop-filter: blur( 20.0px );
+  left: 0;
+  padding: 1rem;
+  height: 400px;
+  text-align: center;
+}
+
+#footer #logo {
+  color: white;
+  z-index: 500;
+  font-size: 26px;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+#footer #links {
+  margin-top: 10px;
+  color: white;
+}
+
+#footer #links ul {
+  list-style-type: none;
+}
+
+#footer #links ul li {
+  margin: 5px;
+}
+
+#footer #links ul li a {
+  margin: 10px;
+  color: white;
+  font-size: 16px;
+}

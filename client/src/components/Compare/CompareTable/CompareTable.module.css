@@ -1,0 +1,81 @@
+#Compare table {
+    width: 100%;
+    font-weight: 500;
+    border-spacing: 0;
+}
+
+#compareTable {
+    overflow-x: auto;
+}
+#Compare table tr {
+    display: table-row;
+    vertical-align: inherit;
+    text-align: center;
+    font-size: 13px;
+}
+#Compare img {
+    width: 85px;
+    margin-top: 15px;
+}
+#Compare table .info {
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 25px;
+}
+
+#Compare table tr .Statment {
+    text-align: end;
+    font-weight: 500;
+    width: 40px;
+    background-color: white;
+    border-right: 1px solid #e8e8e8;
+    max-width: 220px;
+    font-size: 13px;
+}
+#Compare table tr {
+    border-left: 1px solid #e8e8e8;
+}
+
+#Compare table tr:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+#Compare table .TopTr td:nth-child(2){
+    border-left: 1px solid #e8e8e8;
+}
+#Compare table .TopTr:hover{
+    background-color:white;
+}
+#Compare table td {
+    max-width: 150px;
+    padding: 10px;
+}
+#Compare table .tdCard {
+    border-left: 1px solid #e8e8e8;
+    /* border-right: 1px solid #e8e8e8; */
+}
+#Compare table .tdCard:first-child, #Compare table .tdCard:nth-child(2) {
+    border: none;
+}
+
+td .AnsökLink {
+    background-color: #3468FE;
+    padding: 15px 90px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    text-decoration: none;
+}
+td .AnsökLink:hover {
+   background-color: white;
+   border: .5px solid #3468FE;
+   cursor: pointer;
+   color: #3468FE;
+   transition: ease-in-out .2s;
+}
+
+@media only screen and (max-width: 1000px) {
+    td .AnsökLink {
+        padding: 10px 15px;
+    }
+}

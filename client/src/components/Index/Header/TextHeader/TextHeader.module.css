@@ -1,0 +1,75 @@
+#TextHeader {
+    max-width: 100%;
+    /* margin-left: 150px; */
+}
+
+#TextHeader #HeadingTitle h1 {
+    font-size: 40px;
+    animation: moveInRight 1s ease-in;
+}
+
+#TextHeader #HeadingDescription p {
+    font-size: 18px;
+    animation: moveInLeft 1s ease-in;
+}
+
+@media screen and (max-width: 992px) {
+    #TextHeader {
+        max-width: 100%;
+        position: relative;
+        top: 100px;
+        left: 0;
+        transform: translate(0, 0); 
+    }
+
+    #TextHeader #HeadingTitle {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #TextHeader #HeadingTitle {
+        font-size: 10px;
+        text-align: left;
+    }
+    #TextHeader #HeadingDescription {
+        margin-top: 15px;
+        text-align: left;
+    }
+}
+
+
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

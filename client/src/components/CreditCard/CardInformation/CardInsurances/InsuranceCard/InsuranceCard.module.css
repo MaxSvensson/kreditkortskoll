@@ -1,0 +1,23 @@
+
+#InsuranceCard p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+}
+
+
+#InsuranceCard i {
+    margin-right: 10px;
+    color: rgb(88, 236, 88);
+}
+#InsuranceCard a {
+    text-decoration: none;
+    color: #000;
+}
+  
+
+/* #InsuranceCard p {
+    margin-left: 20px;
+} */

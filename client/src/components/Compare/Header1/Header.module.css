@@ -1,0 +1,82 @@
+#header {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    color: #fff;
+}
+
+#header #background {
+    width: 100%;
+    height: 100%;
+    background: rgb(255,173,26);
+    /* background: linear-gradient(65deg, rgba(255,173,26,1) 27%, rgba(255,204,112,1) 94%); */
+    background-image: radial-gradient(#E26E94, #E26E94);
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    /* clip-path: ellipse(97% 70% at 13% 31%); */
+}
+#header #logoBox {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+#header #logoBox #logo {
+    width: 45px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#header #headingPrimary {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    min-width: 850px;
+    display: inline-block;
+}
+
+#header #headingPrimary #headingPrimaryMain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 45px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#header #headingPrimary #headingPrimarySub {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    font-size: 16px;
+    display: block;
+}
+
+
+@media screen and (max-width: 1400px) {
+    
+    #header #headingPrimary {
+        max-width: 420px;
+    }
+
+    #header #headingPrimary #headingPrimaryMain {
+        font-size: 30px;
+    }
+
+    #header #headingPrimary #headingPrimarySub {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    #header #headingPrimary #headingPrimaryMain {
+        font-size: 34px;
+    }
+
+    #header #headingPrimary #headingPrimarySub {
+        font-size: 25px;
+    }
+
+}

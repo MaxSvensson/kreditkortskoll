@@ -1,0 +1,78 @@
+.ButtonWhite {
+  padding: 12px;
+  border-radius: 100px;
+  text-align: center;
+  color: #2D3047;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: ease-in-out .2s;
+}
+
+.ButtonWhite:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.outlinedWhite {
+  border: .5px #fff solid;
+  color: white;
+}
+
+.fullWhite {
+  background: #fff;
+  color: #000;
+}
+
+.outlinedWhite:hover {
+  background: #fff;
+  color: #000;
+}
+
+.fullWhite:hover {
+  border: .5px #fff solid;
+  color: white;
+}
+
+.ButtonOrange {
+  padding: 12px;
+  border-radius: 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: ease-in-out .2s;
+  border: .5px #2149BE solid;
+}
+
+.ButtonOrange:hover {
+  color: #2149BE;
+  background-color: transparent;
+}
+
+.outlinedBlue {
+  border: .5px #2149BE solid;
+  color: #2149BE;
+}
+
+.outlinedBlue:hover {
+  background: #2149BE;
+  color: white;
+}
+
+.fullBlue {
+  background-color:#2149BE;
+  color: white;
+}
+
+.fullBlue:hover {
+  border: .5px #2149BE solid;
+  color: #2149BE;
+}
+
+@keyframes buttonHover {
+  0% {
+
+  }
+}

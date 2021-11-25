@@ -1,0 +1,56 @@
+#Navbar {
+  position: relative;
+}
+#Navbar #loggo {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  color: white;
+  z-index: 500;
+  font-size: 26px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* #Navbar #links {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+    color: white;
+} */
+
+#Navbar ul {
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  color: white;
+  z-index: 500;
+  float: right;
+}
+
+#Navbar li {
+  font-size: 17px;
+  display: inline-block;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+#Navbar li a {
+  text-decoration: none;
+  color: white;
+}
+
+#Navbar li a:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  border-radius: 150px;
+  transition: width .5s;
+}
+
+#Navbar li a:hover:after {
+  width: 100%;
+}

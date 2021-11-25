@@ -1,0 +1,48 @@
+#Categories {
+    height: 700px;
+    width: 100%;
+    margin-top: 50px;
+    background-image: url("../../../../public/svgs/wavebackground.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    position: relative;
+    display: flex;
+}
+
+#Categories #content  {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+#Categories #content #title {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 990px) {
+    #Categories {
+        height: 1100px;
+    }
+
+    #Categories #content  {
+        top: 55%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #Categories {
+        height: 1650px;
+        justify-content: center;
+        align-items: center;
+    }
+    #Categories #content #title {
+        font-size: 34px;
+    }
+
+}

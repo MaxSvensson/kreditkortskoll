@@ -1,0 +1,73 @@
+#Test {
+  display: flex;
+  margin-top: 50px;
+}
+
+#Test #Img {
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+}
+
+#Test #content {
+  max-width: 550px;
+  margin-top: 100px;
+}
+
+#Test #content h4 {
+  font-size: 40px;
+  text-align: right;  
+  margin-bottom: 20px;
+}
+
+#Test #content .Btn {
+  width: 280px;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  margin: 10px; 
+}
+
+#Test #content p {
+  text-align: right;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  #Test {
+    margin-bottom: 100px;
+  }
+
+  #Test h4 {
+    margin-top: 80px;
+  }
+  
+  #Test #content {
+    max-width: 90%;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  
+  #Test #content h4 {
+    font-size: 28px;
+    text-align: right;  
+    margin-bottom: 20px;
+  }
+  #Test #content p {
+    font-size: 14px;  
+    text-align: right;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  #UpdatedInformation {
+    margin-top: 100px;
+  }  
+  #UpdatedInformation h4 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+}

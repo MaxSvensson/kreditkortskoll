@@ -1,0 +1,11 @@
+.row {
+    display: flex;
+    border-bottom: solid .5px #e6e6e6;
+}
+
+@media only screen and (max-width: 1000px) {
+    .row {
+        display:block;
+        border-bottom: solid .5px #e6e6e6;
+    }
+}

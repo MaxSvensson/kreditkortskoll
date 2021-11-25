@@ -1,0 +1,19 @@
+#CardText {
+  width:70%;
+  margin:auto;
+  margin-top: 40px;
+}
+
+#CardText h4 {
+  display: block;
+  font-size: 40px;
+  /* font-weight: bold; */
+}
+
+#CardText p {
+  line-height: 34px;
+}
+
+#CardText div {
+  margin-top: 50px;
+}

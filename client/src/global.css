@@ -1,0 +1,40 @@
+
+/*
+    Colors
+
+        Light
+        #046bc5
+        Darker
+        #152fb3
+
+    Fonts
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400&family=Montserrat:ital,wght@0,400;1,300;1,400&display=swap');
+
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2D3047;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+

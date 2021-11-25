@@ -1,0 +1,86 @@
+#SpecificsTable  {
+    font-size: 16px;
+    width: 50vw;
+    height: 700px;
+    color: #000;
+    background-color: #fcfcfc;
+}
+
+#SpecificsTable #title {
+    font-size: 40px;
+}
+
+#SpecificsTable #content {
+    padding: 50px;
+    padding-left: 80px;
+}
+
+#SpecificsTable #content table {
+    border-spacing: 0;
+    width: 80%;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+#SpecificsTable #content tr {
+    display: table-row;
+    vertical-align: inherit;
+}
+#SpecificsTable #content tr:first-child {
+    border-top: none!important;
+}
+#SpecificsTable #content tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* tr:nth-child(even){
+    background-color: #e0e0e0;
+} */
+
+#SpecificsTable #content td {
+    padding: 12px 8px ;
+    border-bottom: solid 1px #e6e6e6;
+}
+
+#SpecificsTable #content tr:last-child td{
+    border: none;
+}
+
+#SpecificsTable #content tr td:last-child {
+    padding-left: 80px;
+}
+#SpecificsTable #content #readMore {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1050px) {
+
+    #SpecificsTable {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    #SpecificsTable #content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #SpecificsTable #content #title {
+        font-size: 32px;
+    }
+
+    #SpecificsTable table {
+        width: 100%;
+        overflow: scroll;
+    }
+    #SpecificsTable td {
+        padding:0 4px ;
+    }
+
+    #SpecificsTable #content tr td:last-child {
+        padding-left: 30px;
+    }
+}
