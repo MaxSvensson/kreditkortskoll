@@ -10,7 +10,6 @@ import { CreditCards } from '../classes/CreditCards';
 import UpdatedInformation from '../components/Index/UpdatedInforamtion/UpdatedInformation';
 import Head from 'next/head';
 import Categories from '../components/Ui/Categories/Categories';
-import EmailArea from '../components/Index/EmailArea/EmailArea';
 import Test from '../components/Index/Test/Test';
 
 

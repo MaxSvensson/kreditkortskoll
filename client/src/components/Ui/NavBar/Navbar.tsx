@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import React, { useEffect, useState, useRef } from 'react';
 import SlideDown from './SlideDown/SlideDown';
-import { Visible, Hidden } from 'react-grid-system';
+import { Visible } from 'react-grid-system';
 import NavigationButton from '../Navigation/Navigation';
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
     const [slideDown, _setSlideDown] = useState(false);
 
     const slideDownRef = useRef(slideDown);
-    const setSlideDown = data => {
+    const setSlideDown = (data : boolean) => {
       slideDownRef.current = data;
       _setSlideDown(data);
     };
