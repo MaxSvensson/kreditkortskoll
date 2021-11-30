@@ -49,7 +49,7 @@ const CreditCard : React.FunctionComponent<Props> = ({card}) => {
       <meta name="description" content={`En recension av kreditkortet ${creditCard.properties.name}. Vi listar all information om kreditkortet så du kan ta reda på om ${creditCard.properties.name} är rätt kreditkort för dig.`} />
     </Head>
     <Header ref={headerRef} creditCard={creditCard} />
-    <NavigationBar />
+    {/* <NavigationBar /> */}
     <CardInformation creditcard={creditCard} />
   </div>
 }

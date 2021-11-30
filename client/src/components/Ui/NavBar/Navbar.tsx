@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import React, { useEffect, useState, useRef } from 'react';
 import SlideDown from './SlideDown/SlideDown';
+import NavigationButton from '../Navigation/Navigation';
 import { Visible } from 'react-grid-system';
 
 const Navbar = () => {
@@ -45,13 +46,12 @@ const Navbar = () => {
       <SlideDown visible={slideDownRef.current} />
           <ul>
             <motion.li whileHover={{y: -2}}><Link href="/kort"><a>Alla kreditkort</a></Link></motion.li>
-            <motion.li whileHover={{y: -2}}><Link href="/kategorier"><a>Kategorier</a></Link></motion.li>
             <motion.li whileHover={{y: -2}}><Link href="/artiklar"><a>Artiklar</a></Link></motion.li>
             <motion.li whileHover={{y: -2}}><Link href="/faq"><a>FAQ</a></Link></motion.li>
           </ul>
       </Visible>
       <Visible xs sm md>
-        {/* <NavigationButton /> */}
+        <NavigationButton />
       </Visible>
     </div>
     </React.Fragment>

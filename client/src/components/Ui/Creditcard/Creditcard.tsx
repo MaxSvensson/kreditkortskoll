@@ -77,7 +77,7 @@ const Creditcard : React.FunctionComponent<{card : CreditCard}> = ({card}) => {
             </div> 
             <div className={styles.btnBackground}>
                 <div className={styles.buttons}>
-                    <ButtonOrange type="full" text="Ansök nu!" href={`/Redirect?card=${card.properties.id}`} className={styles.ansökButton} /> 
+                    <ButtonOrange type="full" text="Ansök nu!" href={`/Redirect?card=${card.properties.name}`} className={styles.ansökButton} /> 
                     <ButtonOrange type="outline" text="Mer information" href={`/kort/${card.properties.name}`} className={styles.ansökButton} />
                 </div>
             </div>

@@ -33,12 +33,25 @@
   list-style-type: none;
 }
 
-#footer #links ul li {
-  margin: 5px;
+#footer a {
+  text-decoration: none;
+  color: white;
 }
-
-#footer #links ul li a {
+#footer  li {
+  margin: 15px;
+}
+#footer li a {
   margin: 10px;
   color: white;
   font-size: 16px;
+}
+
+#footer li a:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  border-radius: 150px;
+  transition: width .5s;
 }

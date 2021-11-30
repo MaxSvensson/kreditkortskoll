@@ -41,6 +41,7 @@ export const getServerSideProps : GetServerSideProps = async (context) => {
     }
   } catch (error) {
      // Error, redirect to home page
+     console.log(error)
      return {
       redirect: {
         destination : '/',

@@ -9,15 +9,14 @@ const Footer = () => {
     if(router.pathname === "/Redirect") return null;
     return <div id={styles.footer}>
       <div id={styles.logo}>
-        <p>Kreditkortskoll.com</p>
+        <Link href="#">
+          <a>
+            <p>Kreditkortskoll.com</p>  
+          </a>
+        </Link>
       </div>
       <div id={styles.links}>
         <ul>
-          <li>
-            <Link href="/#">
-              <a>Hem</a>
-            </Link>
-          </li>
           <li>
             <Link href="/#">
               <a>Alla kreditkort</a>

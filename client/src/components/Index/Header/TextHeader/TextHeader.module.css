@@ -22,24 +22,14 @@
         transform: translate(0, 0); 
     }
 
-    #TextHeader #HeadingTitle {
+    #TextHeader #HeadingTitle h1 {
         margin-top: 30px;
-        font-size: 14px;
+        font-size: 28px;
+    }
+    #TextHeader #HeadingDescription p {
+        margin-top: 20px;
     }
 }
-
-@media screen and (max-width: 400px) {
-    #TextHeader #HeadingTitle {
-        font-size: 10px;
-        text-align: left;
-    }
-    #TextHeader #HeadingDescription {
-        margin-top: 15px;
-        text-align: left;
-    }
-}
-
-
 
 @keyframes moveInLeft {
     0% {

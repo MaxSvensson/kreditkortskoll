@@ -1,6 +1,6 @@
-import Wrapper from "../../components/Category/Wrapper/Wrapper";
+import Wrapper from "../../hoc/Wrapper/Wrapper";
 import Head from 'next/head';
-import IntroText from "../../components/Category/IntroText/IntroText";
+import IntroText from "../../hoc/IntroText/IntroText";
 
 export default () => {
   return <Wrapper name="Kreditkort tanka">

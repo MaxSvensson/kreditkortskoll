@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const cardsRouter = require('./routers/cards');
 
-require("./script/TransferCards")
+// require("./script/TransferCards")
 
 const app = express();
 
